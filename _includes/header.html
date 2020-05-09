@@ -1,6 +1,10 @@
-<div class="section-header" id="section-header">
+<div class="section-header" id="section-header" 
+{% if site.background_image != blank %}
+    style="background-image: url({{ site.background_image }})"
+{% endif %}
+>
     <div class="header">
-        <h1 class="heading-primary">
+        <h1 class="heading-primary" >
             <span class="header__title">{{ site.header }}</span>
             <span class="header__description">{{ site.description }}</span>
         </h1>
@@ -9,7 +13,7 @@
                 <a class="header__link" aria-label="{{ icon.label }}" href="{{ icon.href }}" target="_blank"><i class="header__icon {{ icon.icon }}"></i></a>
             {% endfor %}
             </ul>
-        </div>
+        </div> 
     </div>
     <div class="scrolldown">
         <a href="#{{ site.data.sections[0].id }}" class="header__scrolldown-link" data-scroll>

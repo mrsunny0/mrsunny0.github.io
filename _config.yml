@@ -7,12 +7,12 @@ template_readme: https://github.com/mrsunny0/template-gh-pages/blob/gh-pages/REA
 template_generator: https://github.com/mrsunny0/generator-gls-website
 
 # Front page settings
-username: George Sun
+author: George Sun
 title: mrsunny webpage
 header: George Sun
 description: A personal landing page about my career, projects, and interests
 gh_page: https://github.com/mrsunny0/mrsunny0.github.io
-background_image: aaa
+background_image: assets/img/1000.png 
 
 # Google-analytics
 google-analytics:

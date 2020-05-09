@@ -1,3 +1,14 @@
+# List of changes
+
+- [ ] Change favicon
+- [ ] Reduced margin on popup text, right side
+- [ ] Added background image to header via style injection
+- [ ] NEED TO CHANGE HOW PHOTOS ARE CENTERED AND SCALED
+- [ ] Make circles smaller
+- [ ] Add gulp handler on image folder
+- [ ] Organize sections.yml for caption, heading, etc.
+- [ ] Remove resources from footer
+
 # Personal-Webpage
 
 Personal landing page hosted on github pages

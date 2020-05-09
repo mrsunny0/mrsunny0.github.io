@@ -1,70 +1,106 @@
 - id: id1
-  heading: heading1
+  heading: Career
+  description: Pivotal academic and professional milestones that have allowed me to climb higher at each stage in my life.
+  group: 
+    - subheading: UC Berkeley
+      caption: An amazing instution where I gained a passion for academic rigor and scientific pursuits. I received a B.S. in Bioengineering along with a degree in Electrical Engineering and Computer Science in 2014.
+      img: assets/img/section1_ucberkeley.jpg
+      alt: ucberkeley
+      link: https://engineering.berkeley.edu/
+      # 
+    - subheading: MIT/Media Lab
+      caption: I continuied to study Biological Engineering 
+      alt: filler   
+      subgroup:
+        - img: assets/img/section1_mit.jpg
+          caption: I continuied to study Biological Engineering
+          alt: mit
+          link: https://engineering.mit.edu/
+        - img: assets/img/section1_medialab.jpg
+          caption: I continuied to study Biological Engineering
+          alt: medialab
+          link: https://www.media.mit.edu/
+      # 
+    - subheading: Nextiles
+      caption: YYY 
+      img: assets/img/section1_nextiles.jpg
+      alt: nextiles
+      link: https://www.nextiles.tech/
+      # 
+
+- id: id2
+  heading: Projects
+  description: description
+  group: 
+    - subheading: How to make (almost) anything
+      caption: How to make almost anything 
+      img: assets/img/250.png
+      alt: filler   
+      link: https://mrsunny0.github.io/website-htmaa-portfolio/
+      # 
+    - subheading: How to generate (almost) anything
+      caption: How to make generate anything
+      img: assets/img/250.png
+      alt: filler   
+      link: https://howtogeneratealmostanything.com/
+      # 
+    - subheading: Hackathons
+      caption: I continuied to study Biological Engineering 
+      alt: filler   
+      subgroup:
+        - img: assets/img/section1_mit.jpg
+          caption: I continuied to study Biological Engineering
+          alt: mit
+          link: https://mrsunny0.github.io/website-hackathon-projects/
+          # 
+        - img: assets/img/section1_medialab.jpg
+          caption: I continuied to study Biological Engineering
+          alt: medialab
+          link: https://mrsunny0.github.io/website-hackathon-projects/
+          # 
+        - img: assets/img/section1_medialab.jpg
+          caption: I continuied to study Biological Engineering
+          alt: medialab
+          link: https://mrsunny0.github.io/website-hackathon-projects/
+
+- id: id3
+  heading: Outreach
+  description: description
+  group: 
+    - subheading: Communication Lab
+      caption: I continuied to study Biological Engineering 
+      alt: filler   
+      subgroup:
+        - img: assets/img/section1_mit.jpg
+          caption: I continuied to study Biological Engineering
+          link: https://mitcommlab.mit.edu/
+          alt: mit
+          # 
+        - img: assets/img/section1_medialab.jpg
+          caption: I continuied to study Biological Engineering
+          link: https://mitcommlab.mit.edu/be/use-the-commkit/
+          alt: medialab
+          # 
+        - img: assets/img/section1_medialab.jpg
+          caption: I continuied to study Biological Engineering
+          link: https://mit-becl.github.io/python-plotting-notes/
+          alt: medialab
+
+    - subheading: Entrepreneur in residence
+      caption: YYY 
+      img: assets/img/250.png
+      alt: filler   
+      link: https://www.une.edu/provost/resources/makerspace-and-student-innovation-challenge
+
+- id: id4
+  heading: Skills
   description: description
   group: 
     - subheading: AAA
-      caption: YYY 
-      img: assets/img/250.png
-      alt: filler
-      link: www.google.com
-    - subheading: BBB
       caption: YYY 
       img: assets/img/500.png
       alt: filler
       link: www.google.com
-    - subheading: CCC
-      caption: YYY 
-      subgroup:
-        - img: assets/img/250.png
-          caption: YYY
-          alt: YYY
-          link: www.google.com
-        - img: assets/img/250.png
-          caption: mal
-          alt: 092
-          link: www.google.com
-      alt: filler   
-
-- id: id2
-  heading: heading2
-  description: description
-  group: 
-    - subheading: AAA
-      caption: YYY 
-      subgroup: 
-        - img: assets/img/250.png
-          caption: aaa
-          alt: bbb
-          link: www.google.com
-        - img: assets/img/500.png
-          caption: ccc
-          alt: bbb
-          link: www.google.com
-        - img: assets/img/500.png
-          caption: ddd
-          alt: bbb
-          link: www.google.com
-    - subheading: BBB
-      caption: YYY 
-      img: assets/img/250.png
-      alt: filler   
-      link: www.google.com
-
-- id: id3
-  heading: heading3
-  description: description
-  group: 
-    - subheading: AAA
-      caption: YYY 
-      subgroup:
-        - img: assets/img/250.png
-          caption: YYY
-          alt: YYY
-          link: www.google.com
-        - img: assets/img/250.png
-          caption: mal
-          alt: 092
-          link: www.google.com
       alt: filler
     - subheading: BBB
       caption: YYY 
@@ -76,8 +112,13 @@
       img: assets/img/250.png
       alt: filler        
       link: www.google.com 
-    - subheading: DDD
+
+- id: id5
+  heading: Resume
+  description: description
+  group: 
+    - subheading: AAA
       caption: YYY 
-      img: assets/img/250.png
-      alt: filler         
-      link: www.google.com
+      link: https://mrsunny0.github.io/resume-cv/
+      img: assets/img/500.png
+      alt: filler
