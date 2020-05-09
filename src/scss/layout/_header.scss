@@ -2,13 +2,14 @@
     height: 100%;
     width: 100%;
     position: absolute;
-    z-index: -100;
+    overflow: hidden;
+    // background-color: red;
+    // border: 10px solid red;
 
     &__video-container {
-        z-index: -10000;
         &--video {
             position: fixed;
-            height: 100vh;
+            height: 100%;
             width: 100%;
             object-fit: cover;
         }
@@ -20,15 +21,32 @@
             height: 100%;
             width: 100%;
             background-color: rgba($color: $color-black, $alpha: .4);
+            z-index: 1;
         }
     }
 
-    &__image {
-        height: 100%;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed; 
+    &__image-container {
+        &--image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed; 
+            background-position: center;
+        }
+
+        &--background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: rgba($color: $color-black, $alpha: .4);
+            z-index: 1;
+        }
     }
 
     &__color {

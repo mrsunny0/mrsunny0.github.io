@@ -15,6 +15,7 @@
 - [ ] Added video folder and gulp process
 - [ ] Added logic for video, image, or color
 - [ ] Gulp .html and .yml search in root dir
+- [ ] Change footer 100% to nil
 
 # Personal-Webpage
 
