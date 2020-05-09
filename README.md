@@ -22,6 +22,7 @@
 - [ ] Fixed image bug, need height and width to be strictly specified for figure and image
 - [ ] sweet scroll offset = 0, not 50px
 - [ ] Change section-margins to 4rem and 6rem, thinner on the sides
+- [ ] Close paranthesis in popup blank
 
 # Personal-Webpage
 

@@ -103,9 +103,24 @@
       img: assets/img/section4_devops.jpg
       caption: YYY 
       link: www.google.com 
-      alt: filler        
-
+      alt: filler      
+      
 - id: id5
+  heading: Skills
+  description: description
+  group: 
+    - subheading: NSF
+      img: assets/img/section5_NSF.png
+      link: https://www.nsf.gov/
+      caption: YYY 
+      alt: filler
+    - subheading: New Lab
+      img: assets/img/section5_newlab.jpg
+      link: www.google.com
+      caption: YYY 
+      alt: newlab
+
+- id: id6
   heading: Resume
   description: Feel free to check out my resume
   group: 
