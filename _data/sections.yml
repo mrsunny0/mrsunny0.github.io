@@ -3,65 +3,58 @@
   description: Pivotal academic and professional milestones that have allowed me to climb higher at each stage in my life.
   group: 
     - subheading: UC Berkeley
-      caption: An amazing instution where I gained a passion for academic rigor and scientific pursuits. I received a B.S. in Bioengineering along with a degree in Electrical Engineering and Computer Science in 2014.
-      img: assets/img/section1_ucberkeley.jpg
-      alt: ucberkeley
+      img: assets/img/section1_ucberkeley_3.jpg
       link: https://engineering.berkeley.edu/
+      caption: An amazing instution where I gained a passion for academic rigor and scientific pursuits. I received a B.S. in Bioengineering along with a degree in Electrical Engineering and Computer Science in 2014.
+      alt: ucberkeley
       # 
-    - subheading: MIT/Media Lab
+    - subheading: MIT
       caption: I continuied to study Biological Engineering 
       alt: filler   
       subgroup:
-        - img: assets/img/section1_mit.jpg
+        - img: assets/img/section1_mit_2.jpg
+          link: https://engineering.mit.edu/
           caption: I continuied to study Biological Engineering
           alt: mit
-          link: https://engineering.mit.edu/
-        - img: assets/img/section1_medialab.jpg
+        - img: assets/img/section1_thesis.jpg
+          link: https://mrsunny0.github.io/website-phd-thesis/
+          caption: Come check out my personal page containing my publications and PhD thesis.
+          alt: thesis
+      # 
+    - subheading: Media Lab
+      caption: I continuied to study Biological Engineering 
+      alt: filler   
+      subgroup:
+        - img: assets/img/section1_medialab_2.jpg
+          link: https://www.media.mit.edu/
           caption: I continuied to study Biological Engineering
           alt: medialab
-          link: https://www.media.mit.edu/
-      # 
-    - subheading: Nextiles
-      caption: YYY 
-      img: assets/img/section1_nextiles.jpg
-      alt: nextiles
-      link: https://www.nextiles.tech/
+        - img: assets/img/section1_medialab_project.jpg
+          link: https://mrsunny0.github.io/website-media-lab/
+          caption: A list of projects while working out of the Media Lab
+          alt: designlab
       # 
 
 - id: id2
   heading: Projects
   description: description
   group: 
-    - subheading: How to make (almost) anything
-      caption: How to make almost anything 
-      img: assets/img/250.png
-      alt: filler   
+    - subheading: Prototyping Projects
       link: https://mrsunny0.github.io/website-htmaa-portfolio/
-      # 
-    - subheading: How to generate (almost) anything
-      caption: How to make generate anything
-      img: assets/img/250.png
+      img: assets/img/section2_howtomake.jpg
+      caption: Inspired by the class - How to make (almost) anything 
       alt: filler   
+      # 
+    - subheading: AI/ML Projects
       link: https://howtogeneratealmostanything.com/
-      # 
-    - subheading: Hackathons
-      caption: I continuied to study Biological Engineering 
+      caption: Inspired by the class - How to make (almost) anything 
+      img: assets/img/section2_howtogenerate.jpg
       alt: filler   
-      subgroup:
-        - img: assets/img/section1_mit.jpg
-          caption: I continuied to study Biological Engineering
-          alt: mit
-          link: https://mrsunny0.github.io/website-hackathon-projects/
-          # 
-        - img: assets/img/section1_medialab.jpg
-          caption: I continuied to study Biological Engineering
-          alt: medialab
-          link: https://mrsunny0.github.io/website-hackathon-projects/
-          # 
-        - img: assets/img/section1_medialab.jpg
-          caption: I continuied to study Biological Engineering
-          alt: medialab
-          link: https://mrsunny0.github.io/website-hackathon-projects/
+    - subheading: Hackathons
+      link: https://mrsunny0.github.io/website-hackathon-projects/
+      img: assets/img/section2_hackathon.jpg
+      caption: See my public page of the portfolio of hackathons I participated in.
+      alt: filler   
 
 - id: id3
   heading: Outreach
@@ -71,54 +64,68 @@
       caption: I continuied to study Biological Engineering 
       alt: filler   
       subgroup:
-        - img: assets/img/section1_mit.jpg
-          caption: I continuied to study Biological Engineering
+        - img: assets/img/section3_commlab_5.jpg
           link: https://mitcommlab.mit.edu/
-          alt: mit
-          # 
-        - img: assets/img/section1_medialab.jpg
           caption: I continuied to study Biological Engineering
+          alt: becl-commlab
+          # 
+        - img: assets/img/section3_commlab_3.jpg
           link: https://mitcommlab.mit.edu/be/use-the-commkit/
-          alt: medialab
-          # 
-        - img: assets/img/section1_medialab.jpg
           caption: I continuied to study Biological Engineering
+          alt: becl-commkit
+          # 
+        - img: assets/img/section3_commlab_6.png
           link: https://mit-becl.github.io/python-plotting-notes/
-          alt: medialab
+          caption: I continuied to study Biological Engineering
+          alt: becl-github
 
     - subheading: Entrepreneur in residence
-      caption: YYY 
-      img: assets/img/250.png
-      alt: filler   
+      img: assets/img/section3_ein.jpg
       link: https://www.une.edu/provost/resources/makerspace-and-student-innovation-challenge
+      caption: YYY 
+      alt: entrepreneur in residence   
 
 - id: id4
   heading: Skills
   description: description
   group: 
-    - subheading: AAA
+    - subheading: Design
+      img: assets/img/section4_design.jpg
       caption: YYY 
-      img: assets/img/500.png
-      alt: filler
       link: www.google.com
       alt: filler
-    - subheading: BBB
+    - subheading: Hardware
+      img: assets/img/section4_hardware.jpg
       caption: YYY 
-      img: assets/img/500.png
-      alt: filler
       link: www.google.com
-    - subheading: CCC
+      alt: filler
+    - subheading: DevOps
+      img: assets/img/section4_devops.jpg
       caption: YYY 
-      img: assets/img/250.png
-      alt: filler        
       link: www.google.com 
-
+      alt: filler      
+      
 - id: id5
-  heading: Resume
+  heading: Skills
   description: description
   group: 
-    - subheading: AAA
+    - subheading: NSF
+      img: assets/img/section5_NSF.png
+      link: https://www.nsf.gov/
       caption: YYY 
-      link: https://mrsunny0.github.io/resume-cv/
-      img: assets/img/500.png
       alt: filler
+    - subheading: New Lab
+      img: assets/img/section5_newlab.jpg
+      link: www.google.com
+      caption: YYY 
+      alt: newlab
+
+- id: id6
+  heading: Resume
+  description: Feel free to check out my resume
+  group: 
+    - subheading: ""
+      img: assets/img/section5_resume.jpg
+      link: https://mrsunny0.github.io/resume-cv/
+      caption: "" 
+      alt: resume
