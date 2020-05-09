@@ -13,13 +13,17 @@
       alt: filler   
       subgroup:
         - img: assets/img/section1_mit.jpg
+          link: https://engineering.mit.edu/
           caption: I continuied to study Biological Engineering
           alt: mit
-          link: https://engineering.mit.edu/
         - img: assets/img/section1_medialab.jpg
+          link: https://www.media.mit.edu/
           caption: I continuied to study Biological Engineering
           alt: medialab
+        - img: assets/img/section1_medialab.jpg
           link: https://www.media.mit.edu/
+          caption: I continuied to study Biological Engineering
+          alt: medialab
       # 
     - subheading: Nextiles
       caption: YYY 
@@ -32,36 +36,41 @@
   heading: Projects
   description: description
   group: 
-    - subheading: How to make (almost) anything
-      caption: How to make almost anything 
-      img: assets/img/250.png
-      alt: filler   
+    - subheading: Prototyping Projects
       link: https://mrsunny0.github.io/website-htmaa-portfolio/
-      # 
-    - subheading: How to generate (almost) anything
-      caption: How to make generate anything
-      img: assets/img/250.png
+      img: assets/img/section2_howtomake.jpg
+      caption: Inspired by the class - How to make (almost) anything 
       alt: filler   
+      # 
+    - subheading: AI/ML Projects
       link: https://howtogeneratealmostanything.com/
-      # 
-    - subheading: Hackathons
-      caption: I continuied to study Biological Engineering 
+      caption: Inspired by the class - How to make (almost) anything 
+      img: assets/img/section2_howtogenerate.jpg
       alt: filler   
-      subgroup:
-        - img: assets/img/section1_mit.jpg
-          caption: I continuied to study Biological Engineering
-          alt: mit
-          link: https://mrsunny0.github.io/website-hackathon-projects/
-          # 
-        - img: assets/img/section1_medialab.jpg
-          caption: I continuied to study Biological Engineering
-          alt: medialab
-          link: https://mrsunny0.github.io/website-hackathon-projects/
-          # 
-        - img: assets/img/section1_medialab.jpg
-          caption: I continuied to study Biological Engineering
-          alt: medialab
-          link: https://mrsunny0.github.io/website-hackathon-projects/
+    - subheading: Hackathons
+      link: https://mrsunny0.github.io/website-hackathon-projects/
+      img: assets/img/section2_howtogenerate.jpg
+      caption: See my public page of the portfolio of hackathons I participated in.
+      alt: filler   
+      # 
+    # - subheading: Hackathons
+    #   caption: I continuied to study Biological Engineering 
+    #   alt: filler   
+    #   subgroup:
+    #     - img: assets/img/section1_mit.jpg
+    #       caption: I continuied to study Biological Engineering
+    #       alt: mit 
+    #       link: https://mrsunny0.github.io/website-hackathon-projects/
+    #       # 
+    #     - img: assets/img/section1_medialab.jpg
+    #       caption: I continuied to study Biological Engineering
+    #       alt: medialab
+    #       link: https://mrsunny0.github.io/website-hackathon-projects/
+    #       # 
+    #     - img: assets/img/section1_medialab.jpg
+    #       caption: I continuied to study Biological Engineering
+    #       alt: medialab
+    #       link: https://mrsunny0.github.io/website-hackathon-projects/
 
 - id: id3
   heading: Outreach
@@ -71,54 +80,53 @@
       caption: I continuied to study Biological Engineering 
       alt: filler   
       subgroup:
-        - img: assets/img/section1_mit.jpg
-          caption: I continuied to study Biological Engineering
+        - img: assets/img/section3_commlab_5.jpg
           link: https://mitcommlab.mit.edu/
-          alt: mit
-          # 
-        - img: assets/img/section1_medialab.jpg
           caption: I continuied to study Biological Engineering
+          alt: becl-commlab
+          # 
+        - img: assets/img/section3_commlab_3.jpg
           link: https://mitcommlab.mit.edu/be/use-the-commkit/
-          alt: medialab
-          # 
-        - img: assets/img/section1_medialab.jpg
           caption: I continuied to study Biological Engineering
+          alt: becl-commkit
+          # 
+        - img: assets/img/section3_commlab_4.png
           link: https://mit-becl.github.io/python-plotting-notes/
-          alt: medialab
+          caption: I continuied to study Biological Engineering
+          alt: becl-github
 
     - subheading: Entrepreneur in residence
-      caption: YYY 
-      img: assets/img/250.png
-      alt: filler   
+      img: assets/img/section3_ein.jpg
       link: https://www.une.edu/provost/resources/makerspace-and-student-innovation-challenge
+      caption: YYY 
+      alt: entrepreneur in residence   
 
 - id: id4
   heading: Skills
   description: description
   group: 
-    - subheading: AAA
+    - subheading: Design
+      img: assets/img/section4_design.jpg
       caption: YYY 
-      img: assets/img/500.png
-      alt: filler
       link: www.google.com
       alt: filler
-    - subheading: BBB
+    - subheading: Hardware
+      img: assets/img/section4_hardware.jpg
       caption: YYY 
-      img: assets/img/500.png
-      alt: filler
       link: www.google.com
-    - subheading: CCC
+      alt: filler
+    - subheading: DevOps
+      img: assets/img/section4_devops.jpg
       caption: YYY 
-      img: assets/img/250.png
-      alt: filler        
       link: www.google.com 
+      alt: filler        
 
 - id: id5
   heading: Resume
-  description: description
+  description: Feel free to check out my resume
   group: 
-    - subheading: AAA
-      caption: YYY 
+    - subheading: ""
+      img: assets/img/section5_resume.jpg
       link: https://mrsunny0.github.io/resume-cv/
-      img: assets/img/500.png
-      alt: filler
+      caption: "" 
+      alt: resume

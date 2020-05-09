@@ -10,6 +10,8 @@
 - [ ] Organize sections.yml for caption, heading, etc.
 - [ ] Remove resources from footer
 - [ ] Remove JS console.log
+- [ ] Remove Resource from footer
+- [ ] Fix package JS name
 
 # Personal-Webpage
 
