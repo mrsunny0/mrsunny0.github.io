@@ -1,20 +1,21 @@
 # Site settings
-title: George Sun ANOTEOHOEIHO H
-description: WhoamI?
-# baseurl: "" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+contact: george.lele.sun-x@gmail.com
+company_name: Sun Websites
+company_website: https://www.sunwebsites.org
+personal_website: http://www.mrsunny.tech
+template_readme: https://github.com/mrsunny0/template-gh-pages/blob/gh-pages/README.md
+template_generator: https://github.com/mrsunny0/generator-gls-website
 
-# User settings
+# Front page settings
 username: George Sun
-user_description:  I do stuff!
-user_title: Biological, Electrical, & Software Engineer
-email: ge0rge.sun10@gmail.com
-# github_username:  lorem_ipsum
-# twitter_username: lorem_ipsum
-# gplus_username:  lorem_ipsum
+title: mrsunny webpage
+header: George Sun
+description: A personal landing page about my career, projects, and interests
+gh_page: https://github.com/mrsunny0/mrsunny0.github.io
+background_image: aaa
 
 # Google-analytics
 google-analytics:
-  id: ""
+  id: "UA-161447266-2"
 
 exclude: ['package.json', 'src' , 'node_modules']

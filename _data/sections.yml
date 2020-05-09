@@ -1,0 +1,83 @@
+- id: id1
+  heading: heading1
+  description: description
+  group: 
+    - subheading: AAA
+      caption: YYY 
+      img: assets/img/250.png
+      alt: filler
+      link: www.google.com
+    - subheading: BBB
+      caption: YYY 
+      img: assets/img/500.png
+      alt: filler
+      link: www.google.com
+    - subheading: CCC
+      caption: YYY 
+      subgroup:
+        - img: assets/img/250.png
+          caption: YYY
+          alt: YYY
+          link: www.google.com
+        - img: assets/img/250.png
+          caption: mal
+          alt: 092
+          link: www.google.com
+      alt: filler   
+
+- id: id2
+  heading: heading2
+  description: description
+  group: 
+    - subheading: AAA
+      caption: YYY 
+      subgroup: 
+        - img: assets/img/250.png
+          caption: aaa
+          alt: bbb
+          link: www.google.com
+        - img: assets/img/500.png
+          caption: ccc
+          alt: bbb
+          link: www.google.com
+        - img: assets/img/500.png
+          caption: ddd
+          alt: bbb
+          link: www.google.com
+    - subheading: BBB
+      caption: YYY 
+      img: assets/img/250.png
+      alt: filler   
+      link: www.google.com
+
+- id: id3
+  heading: heading3
+  description: description
+  group: 
+    - subheading: AAA
+      caption: YYY 
+      subgroup:
+        - img: assets/img/250.png
+          caption: YYY
+          alt: YYY
+          link: www.google.com
+        - img: assets/img/250.png
+          caption: mal
+          alt: 092
+          link: www.google.com
+      alt: filler
+    - subheading: BBB
+      caption: YYY 
+      img: assets/img/500.png
+      alt: filler
+      link: www.google.com
+    - subheading: CCC
+      caption: YYY 
+      img: assets/img/250.png
+      alt: filler        
+      link: www.google.com 
+    - subheading: DDD
+      caption: YYY 
+      img: assets/img/250.png
+      alt: filler         
+      link: www.google.com
