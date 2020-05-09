@@ -124,11 +124,12 @@ function watchFiles() {
 }
 
 /*
- * Clean assets
+ * Clean site assets
  */
 function clean() {
-  return del(["_site/assets/"]);
+  return del(["assets/", "_site/assets/"]);
 }
+
 
 /* 
  * Clear cache
