@@ -1,3 +1,41 @@
+.header-background {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -100;
+
+    &__video-container {
+        z-index: -10000;
+        &--video {
+            position: fixed;
+            height: 100vh;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        &--background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: rgba($color: $color-black, $alpha: .4);
+        }
+    }
+
+    &__image {
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed; 
+    }
+
+    &__color {
+        border: none;
+    }
+}
+
 .header {
     // position
     position: absolute;

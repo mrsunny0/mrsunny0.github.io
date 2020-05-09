@@ -12,6 +12,9 @@
 - [ ] Remove JS console.log
 - [ ] Remove Resource from footer
 - [ ] Fix package JS name
+- [ ] Added video folder and gulp process
+- [ ] Added logic for video, image, or color
+- [ ] Gulp .html and .yml search in root dir
 
 # Personal-Webpage
 
