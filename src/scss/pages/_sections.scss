@@ -7,7 +7,7 @@
 }
 
 .section-body {
-    margin: $section-margins;
+    margin: $section-margins-topbottom $section-margins-side;
 }
 
 // for js animations, toggling on/off

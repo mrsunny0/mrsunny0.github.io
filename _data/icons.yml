@@ -4,7 +4,7 @@
 
 - label: Code
   icon: fas fa-code
-  href: https://github.com/mrsunny0/mrsunny0.github.io/blob/master/index.html
+  href: {{ site.gh_page }}
 
 - label: Github
   icon: fab fa-github
