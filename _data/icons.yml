@@ -1,10 +1,10 @@
 - label: Email
   icon: far fa-envelope 
-  href: mailto:{{ site.contact }}
+  href: mailto:george.lele.sun-x@gmail.com
 
 - label: Code
   icon: fas fa-code
-  href: {{ site.gh_page }}
+  href: https://github.com/mrsunny0/mrsunny0.github.io
 
 - label: Github
   icon: fab fa-github
