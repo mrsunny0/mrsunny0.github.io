@@ -16,6 +16,12 @@
 - [ ] Added logic for video, image, or color
 - [ ] Gulp .html and .yml search in root dir
 - [ ] Change footer 100% to nil
+- [ ] Add script for compressing files
+- [ ] Reorganize folder for raw and dump (no longer needed for dump)
+- [ ] Add dummy video
+- [ ] Fixed image bug, need height and width to be strictly specified for figure and image
+- [ ] sweet scroll offset = 0, not 50px
+- [ ] Change section-margins to 4rem and 6rem, thinner on the sides
 
 # Personal-Webpage
 

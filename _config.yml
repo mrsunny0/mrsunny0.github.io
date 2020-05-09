@@ -13,8 +13,7 @@ header: George Sun
 description: A personal landing page about my career, projects, and interests
 gh_page: https://github.com/mrsunny0/mrsunny0.github.io
 background: 
-  video: assets/vid/air_balloons.mp4
-  # video: ""
+  video: assets/vid/manhattan_sunset.mp4
   image: assets/img/1000.png 
   color: #1a222c 
 

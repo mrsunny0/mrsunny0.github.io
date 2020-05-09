@@ -3,33 +3,36 @@
   description: Pivotal academic and professional milestones that have allowed me to climb higher at each stage in my life.
   group: 
     - subheading: UC Berkeley
+      img: assets/img/section1_ucberkeley_3.jpg
       link: https://engineering.berkeley.edu/
       caption: An amazing instution where I gained a passion for academic rigor and scientific pursuits. I received a B.S. in Bioengineering along with a degree in Electrical Engineering and Computer Science in 2014.
-      img: assets/img/section1_ucberkeley.jpg
       alt: ucberkeley
       # 
-    - subheading: MIT/Media Lab
+    - subheading: MIT
       caption: I continuied to study Biological Engineering 
       alt: filler   
       subgroup:
-        - img: assets/img/section1_mit.jpg
+        - img: assets/img/section1_mit_2.jpg
           link: https://engineering.mit.edu/
           caption: I continuied to study Biological Engineering
           alt: mit
-        - img: assets/img/section1_medialab.jpg
-          link: https://www.media.mit.edu/
-          caption: I continuied to study Biological Engineering
-          alt: medialab
         - img: assets/img/section1_thesis.jpg
           link: https://mrsunny0.github.io/website-phd-thesis/
           caption: Come check out my personal page containing my publications and PhD thesis.
           alt: thesis
       # 
-    - subheading: Nextiles
-      link: https://www.nextiles.tech/
-      img: assets/img/section1_nextiles.jpg
-      caption: YYY 
-      alt: nextiles
+    - subheading: Media Lab
+      caption: I continuied to study Biological Engineering 
+      alt: filler   
+      subgroup:
+        - img: assets/img/section1_medialab_2.jpg
+          link: https://www.media.mit.edu/
+          caption: I continuied to study Biological Engineering
+          alt: medialab
+        - img: assets/img/section1_medialab_project.jpg
+          link: https://mrsunny0.github.io/website-media-lab/
+          caption: A list of projects while working out of the Media Lab
+          alt: designlab
       # 
 
 - id: id2
@@ -49,7 +52,7 @@
       alt: filler   
     - subheading: Hackathons
       link: https://mrsunny0.github.io/website-hackathon-projects/
-      img: assets/img/section2_howtogenerate.jpg
+      img: assets/img/section2_hackathon.jpg
       caption: See my public page of the portfolio of hackathons I participated in.
       alt: filler   
 
