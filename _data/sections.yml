@@ -137,7 +137,7 @@
   heading: Resume
   description: Feel free to check out my resume
   group: 
-    - subheading: ""
+    - subheading: 
       img: assets/img/section6_resume.jpg
       conetnt:
         url: https://mrsunny0.github.io/resume-cv/
