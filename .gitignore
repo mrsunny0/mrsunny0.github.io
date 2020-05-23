@@ -7,6 +7,9 @@
 _site
 _example
 
+# design folders
+**/img/download
+
 # illustrative drafts
 src/img/raw/*
 src/video/raw/*
