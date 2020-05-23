@@ -4,128 +4,131 @@
   group: 
     - subheading: UC Berkeley
       img: assets/img/section1_ucberkeley_3.jpg
-      link: https://engineering.berkeley.edu/
+      content:
+        url: https://engineering.berkeley.edu/
       caption: An amazing instution where I gained a passion for academic rigor and scientific pursuits. I received a B.S. in Bioengineering along with a degree in Electrical Engineering and Computer Science in 2014.
-      alt: ucberkeley
+      alt: UC Berkeley
       # 
     - subheading: MIT
-      caption: I continuied to study Biological Engineering 
-      alt: filler   
       subgroup:
         - img: assets/img/section1_mit_2.jpg
-          link: https://engineering.mit.edu/
+          content:
+            link: https://engineering.mit.edu/
           caption: I continuied to study Biological Engineering
-          alt: mit
+          alt: Massachusetts Institute of Technology
         - img: assets/img/section1_thesis.jpg
-          link: https://mrsunny0.github.io/website-phd-thesis/
+          conetn:
+            link: https://mrsunny0.github.io/website-phd-thesis/
           caption: Come check out my personal page containing my publications and PhD thesis.
-          alt: thesis
+          alt: MIT Thesis
       # 
     - subheading: Media Lab
       caption: I continuied to study Biological Engineering 
       alt: filler   
       subgroup:
         - img: assets/img/section1_medialab_2.jpg
-          link: https://www.media.mit.edu/
+          content:
+            url: https://www.media.mit.edu/
           caption: I continuied to study Biological Engineering
-          alt: medialab
+          alt: Media Lab
         - img: assets/img/section1_medialab_project.jpg
-          link: https://mrsunny0.github.io/website-media-lab/
+          content:
+            link: https://mrsunny0.github.io/website-media-lab/
           caption: A list of projects while working out of the Media Lab
-          alt: designlab
+          alt: Design Lab
       # 
 
-- id: id2
-  heading: Projects
-  description: description
-  group: 
-    - subheading: Prototyping Projects
-      link: https://mrsunny0.github.io/website-htmaa-portfolio/
-      img: assets/img/section2_howtomake.jpg
-      caption: Inspired by the class - How to make (almost) anything 
-      alt: filler   
-      # 
-    - subheading: AI/ML Projects
-      link: https://howtogeneratealmostanything.com/
-      caption: Inspired by the class - How to make (almost) anything 
-      img: assets/img/section2_howtogenerate.jpg
-      alt: filler   
-    - subheading: Hackathons
-      link: https://mrsunny0.github.io/website-hackathon-projects/
-      img: assets/img/section2_hackathon.jpg
-      caption: See my public page of the portfolio of hackathons I participated in.
-      alt: filler   
+# - id: id2
+#   heading: Projects
+#   description: description
+#   group: 
+#     - subheading: Prototyping Projects
+#       link: https://mrsunny0.github.io/website-htmaa-portfolio/
+#       img: assets/img/section2_howtomake.jpg
+#       caption: Inspired by the class - How to make (almost) anything 
+#       alt: filler   
+#       # 
+#     - subheading: AI/ML Projects
+#       link: https://howtogeneratealmostanything.com/
+#       caption: Inspired by the class - How to make (almost) anything 
+#       img: assets/img/section2_howtogenerate.jpg
+#       alt: filler   
+#     - subheading: Hackathons
+#       link: https://mrsunny0.github.io/website-hackathon-projects/
+#       img: assets/img/section2_hackathon.jpg
+#       caption: See my public page of the portfolio of hackathons I participated in.
+#       alt: filler   
 
-- id: id3
-  heading: Outreach
-  description: description
-  group: 
-    - subheading: Communication Lab
-      caption: I continuied to study Biological Engineering 
-      alt: filler   
-      subgroup:
-        - img: assets/img/section3_commlab_5.jpg
-          link: https://mitcommlab.mit.edu/
-          caption: I continuied to study Biological Engineering
-          alt: becl-commlab
-          # 
-        - img: assets/img/section3_commlab_3.jpg
-          link: https://mitcommlab.mit.edu/be/use-the-commkit/
-          caption: I continuied to study Biological Engineering
-          alt: becl-commkit
-          # 
-        - img: assets/img/section3_commlab_6.png
-          link: https://mit-becl.github.io/python-plotting-notes/
-          caption: I continuied to study Biological Engineering
-          alt: becl-github
+# - id: id3
+#   heading: Outreach
+#   description: description
+#   group: 
+#     - subheading: Communication Lab
+#       caption: I continuied to study Biological Engineering 
+#       alt: filler   
+#       subgroup:
+#         - img: assets/img/section3_commlab_5.jpg
+#           link: https://mitcommlab.mit.edu/
+#           caption: I continuied to study Biological Engineering
+#           alt: becl-commlab
+#           # 
+#         - img: assets/img/section3_commlab_3.jpg
+#           link: https://mitcommlab.mit.edu/be/use-the-commkit/
+#           caption: I continuied to study Biological Engineering
+#           alt: becl-commkit
+#           # 
+#         - img: assets/img/section3_commlab_6.png
+#           link: https://mit-becl.github.io/python-plotting-notes/
+#           caption: I continuied to study Biological Engineering
+#           alt: becl-github
 
-    - subheading: Entrepreneur in residence
-      img: assets/img/section3_ein.jpg
-      link: https://www.une.edu/provost/resources/makerspace-and-student-innovation-challenge
-      caption: YYY 
-      alt: entrepreneur in residence   
+#     - subheading: Entrepreneur in residence
+#       img: assets/img/section3_ein.jpg
+#       link: https://www.une.edu/provost/resources/makerspace-and-student-innovation-challenge
+#       caption: YYY 
+#       alt: entrepreneur in residence   
 
-- id: id4
-  heading: Skills
-  description: description
-  group: 
-    - subheading: Design
-      img: assets/img/section4_design.jpg
-      caption: YYY 
-      link: www.google.com
-      alt: filler
-    - subheading: Hardware
-      img: assets/img/section4_hardware.jpg
-      caption: YYY 
-      link: www.google.com
-      alt: filler
-    - subheading: DevOps
-      img: assets/img/section4_devops.jpg
-      caption: YYY 
-      link: www.google.com 
-      alt: filler      
+# - id: id4
+#   heading: Skills
+#   description: description
+#   group: 
+#     - subheading: Design
+#       img: assets/img/section4_design.jpg
+#       caption: YYY 
+#       link: www.google.com
+#       alt: filler
+#     - subheading: Hardware
+#       img: assets/img/section4_hardware.jpg
+#       caption: YYY 
+#       link: www.google.com
+#       alt: filler
+#     - subheading: DevOps
+#       img: assets/img/section4_devops.jpg
+#       caption: YYY 
+#       link: www.google.com 
+#       alt: filler      
       
-- id: id5
-  heading: Skills
-  description: description
-  group: 
-    - subheading: NSF
-      img: assets/img/section5_NSF.png
-      link: https://www.nsf.gov/
-      caption: YYY 
-      alt: filler
-    - subheading: New Lab
-      img: assets/img/section5_newlab.jpg
-      link: www.google.com
-      caption: YYY 
-      alt: newlab
+# - id: id5
+#   heading: Skills
+#   description: description
+#   group: 
+#     - subheading: NSF
+#       img: assets/img/section5_NSF.png
+#       link: https://www.nsf.gov/
+#       caption: YYY 
+#       alt: filler
+#     - subheading: New Lab
+#       img: assets/img/section5_newlab.jpg
+#       link: www.google.com
+#       caption: YYY 
+#       alt: newlab
 
-- id: id6
-  heading: Resume
-  description: Feel free to check out my resume
-  group: 
-    - subheading: ""
-      img: assets/img/section6_resume.jpg
-      link: https://mrsunny0.github.io/resume-cv/
-      caption: "" 
-      alt: resume
+# - id: id6
+#   heading: Resume
+#   description: Feel free to check out my resume
+#   group: 
+#     - subheading: ""
+#       img: assets/img/section6_resume.jpg
+#       link: https://mrsunny0.github.io/resume-cv/
+#       caption: "" 
+#       alt: resume
