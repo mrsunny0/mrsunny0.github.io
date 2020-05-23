@@ -3,16 +3,24 @@ import requests
 from bs4 import BeautifulSoup as bs
 import re
 import sys
-import Tkinter, tkFileDialog
+from tkinter import Tk
+from tkinter.filedialog import askdirectory, asksaveasfilename
 
 #%%
+root = Tk()
+root.withdraw()
 args = sys.argv
+try:
+    page_name = args[1]
+except IndexError:
+    print("please provide a wiki page name")
+    sys.exit()
 
 #%%
 params = {
     "action" : "parse",
     "format" : "json",
-    "page" : "DevOps",
+    "page" : page_name,
     # "titles" : "devops",
     # "prop" : "extracts",
     # "exinto" : True,
@@ -25,10 +33,13 @@ html = response["parse"]["text"]["*"]
 #%%
 soup = bs(html)
 text = soup.get_text()
-print(text)
 
 #%% Save
 pattern = r'\[.*?\]'
 text_clean = re.sub(pattern, "", text)
 
-output_path = tkFileDialog.asksaveasfile()
+filename = asksaveasfilename()
+with open(filename, "w") as file:
+    file.write(text_clean)
+
+print("...saved")
