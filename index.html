@@ -1,5 +1,5 @@
 ---
-layout : background
+layout : custom
 ---
 
 <!-- CONTAINER GRID -->
@@ -32,7 +32,6 @@ layout : background
 
                     {% for subgroup in group.subgroup %}
                     <div class="carousel__item carousel__item--image carousel__item--fade">
-                        <!-- <img class="image" src="{{ site.baseurl }}/{{ subgroup.img }}" alt="{{ subgroup.alt }}"> -->
                         <div class="figure">
                             <img class="figure__image" src="{{ site.baseurl }}/{{ subgroup.img }}" alt="{{ subgroup.alt }}">
                             <p class="figure__caption">
@@ -60,7 +59,7 @@ layout : background
 
                 {% for subgroup in group.subgroup %}
                 <div class="carousel__item carousel__item--paragraph fade">
-                    <p class="paragraph">{{ subgroup.caption }}</p>
+                    <p class="paragraph paragraph--justalign">{{ subgroup.caption }}</p>
                 </div>
                 {% endfor %}
             </div>
@@ -74,11 +73,13 @@ layout : background
                         Learn<br>more
                     </a>
                 </p>
-            </div>
+            </div> 
             
             <!-- fake dot container to buffer space -->
             <div class="carousel__dot-container"><span class="carousel__dots carousel__dots--hidden"></span></div>
-            <p class="paragraph">{{ group.caption }}</p>
+            
+            <!-- paragraph -->
+            <p class="paragraph paragraph--justalign">{{ group.caption }}</p>
             {% endif %}
         </div>
         {% endfor %}
@@ -108,10 +109,10 @@ layout : background
     <div class='group-horizontal'>
         <!-- heading -->
         <div class="group-horizontal__item">
-            <h2 class="heading-secondary heading-secondary--inline u-margin-bottom-medium">{{ group.subheading }}</h2>
+            <h2 class="heading-secondary heading-secondary--inline">{{ group.subheading }}</h2>
         </div>
 
-        <!-- figure imgae -->
+        <!-- figure image -->
         <div class="group-horizontal__item">
             <div class="figure">
                 <img class="figure__image" src="{{ site.baseurl }}/{{ subgroup.img }}" alt="{{ subgroup.alt }}">
@@ -123,29 +124,34 @@ layout : background
             </div>
         </div>
 
-        <!-- text -->
+        <!-- link -->
         <div class="group-horizontal__item">
-            <p class="paragraph paragraph--inline">
-                {{ subgroup.caption }}
+            {% if subgroup.content.url %}
+            <a class="paragraph group-horizontal__link" href="{{ subgroup.content.url }}">
+                {{ subgroup.content.url }}
+            </a>
+            {% elsif subgroup.alt-link %}
+            <a class="paragraph group-horizontal__link" href="{{ subgroup.alt-link }}">
+                {{ subgroup.alt-link }}
+            </a>            
+            {% else %}
+            <p class="paragraph group-horizontal__link">
+                no link provided
             </p>
-        </div>
-        <div class="group-horizontal__item">
-            <p class="paragraph paragraph--inline">
-                <a class="group-horizontal__link" href="{{ group.link }}">
-                    {{ subgroup.link }}
-                </a>
-            </p>
-        </div>
+            {% endif %}
+         </div>
+
     </div>
     {% endfor %}
     {% else %}
     <div class='group-horizontal'>
+        
         <!-- heading -->
         <div class="group-horizontal__item">
-            <h2 class="heading-secondary heading-secondary--inline u-margin-bottom-medium">{{ group.subheading }}</h2>
+            <h2 class="heading-secondary heading-secondary--inline">{{ group.subheading }}</h2>
         </div>
 
-        <!-- figure imgae -->
+        <!-- figure image -->
         <div class="group-horizontal__item">
             <div class="figure">
                 <img class="figure__image" src="{{ site.baseurl }}/{{ group.img }}" alt="{{ group.alt }}">
@@ -157,19 +163,23 @@ layout : background
             </div>
         </div>
 
-        <!-- text -->
+        <!-- link -->
         <div class="group-horizontal__item">
-            <p class="paragraph paragraph--inline">
-                {{ group.caption }}
+            {% if group.content.url %}
+            <a class="paragraph group-horizontal__link" href="{{ group.content.url }}">
+                {{ group.content.url }}
+            </a>
+            {% elsif group.alt-link %}
+            <a class="paragraph group-horizontal__link" href="{{ group.alt-link }}">
+                {{ group.alt-link }}
+            </a>
+            {% else %}
+            <p class="paragraph group-horizontal__link">
+                no link provided
             </p>
-        </div>
-        <div class="group-horizontal__item">
-            <p class="paragraph paragraph--inline">
-                <a class="group-horizontal__link" href="{{ group.link }}">
-                    {{ group.link }}
-                </a>
-            </p>
-        </div>
+            {% endif %}
+         </div>
+
     </div>
     {% endif %}
     {% endfor %}
@@ -177,64 +187,7 @@ layout : background
 {% endfor %}
 </div>
 
-<!-- POPUP INFO -->
-
-<!-- iterate per section -->
-{% for section in site.data.sections %}     <!-- no need for section data -->
-{% for group in section.group %}            <!-- iterate through group -->
-{% if group.subgroup %}                     <!-- check if there are subgroups first -->
-    {% for subgroup in group.subgroup %}    <!-- iterate through subgroups -->
-    <div class="popup" id="{{ section.id }}-{{ group.subheading }}-sub-{{ forloop.index }}">
-        <div class="popup__content">
-            <div class="popup__left">
-                <iframe class="popup__webview"
-                    src="{{ subgroup.link }}"
-                    frameborder="0"
-                    marginheight="0"
-                    marginwidth="0"
-                    width="100%"
-                    height="100%"
-                    scrolling="auto">
-                </iframe>
-            </div>
-            <div class="popup__right">
-                <h2 class="heading-secondary heading-secondary--inline u-margin-bottom-medium popup__right--heading">{{ group.subheading }}</h2>
-                <p class="paragraph u-left-text">{{ subgroup.caption }}</p>
-                <a href="{{ subgroup.link }}" class="btn btn--primary u-center-text popup__right--button" target="_blank"">Visit</a>
-                <a href="#{{ section.id }}" class="popup__close">&times;</a>
-            </div>
-        </div>
-    </div>
-    {% endfor %}
-{% else %}
-    <div class="popup" id="{{ section.id }}-{{ group.subheading }}">
-        <div class="popup__content">
-            <div class="popup__left">
-                <iframe class="popup__webview"
-                    src="{{ group.link }}"
-                    frameborder="0"
-                    marginheight="0"
-                    marginwidth="0"
-                    width="100%"
-                    height="100%"
-                    scrolling="auto">
-                </iframe>
-            </div>
-            <div class="popup__right">
-                <h2 class="heading-secondary heading-secondary--inline u-margin-bottom-medium popup__right--heading">{{ group.subheading }}</h2>
-                <p class="paragraph u-left-text">{{ group.caption }}</p>
-                <a href="{{ group.link }}" class="btn btn--primary u-center-text popup__right--button" target="_blank">Visit</a>
-                <a href="#{{ section.id }}" class="popup__close">&times;</a>
-            </div>
-        </div>
-    </div>
-{% endif %}
-{% endfor %}
-{% endfor %}
-
-<!-- NAVIGATION BUTTONS -->
-
-<!-- toggle button -->
+<!-- TOGGLE BUTTON -->
 <div class="toggle" id="display-toggle">
     <input type="checkbox" class="toggle__checkbox" id="display-toggle-checkbox">
 
@@ -245,7 +198,7 @@ layout : background
                     <i class="fas fa-th"></i>
                 </span>
                 <span class="toggle__text toggle__text--annotation">
-                    GRID VIEW
+                    GRID
                 </span>
             </div>
             <div class="toggle__side toggle__side--back">
@@ -253,7 +206,7 @@ layout : background
                     <i class="fas fa-list"></i>
                 </span>
                 <span class="toggle__text toggle__text--annotation">
-                    LINK VIEW
+                    LINK
                 </span>
             </div> 
         </div>
