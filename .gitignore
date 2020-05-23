@@ -9,6 +9,7 @@ _example
 
 # illustrative drafts
 **/img/download
+**/drafts
 src/img/raw/*
 src/video/raw/*
 !src/img/raw/favicon.ai
