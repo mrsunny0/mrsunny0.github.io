@@ -1,7 +1,26 @@
-node_modules
-_site
-
-.vscode
-.sass-cache/
+# miscellaneous
+.sass-cache
 .jekyll-metadata
-.jekyll-cache
+.vscode
+
+# internal tools
+_site
+_example
+
+# illustrative drafts
+**/img/download
+**/drafts
+src/img/raw/*
+src/video/raw/*
+!src/img/raw/favicon.ai
+
+# node modules
+node_modules
+
+# testing 
+test.html
+test.js
+
+# misc
+.DS_Store
+

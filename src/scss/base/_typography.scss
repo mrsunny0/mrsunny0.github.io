@@ -11,7 +11,7 @@ body {
 
 // ------------------------------------ //
 
-.header {
+.banner {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -24,15 +24,35 @@ body {
         font-size: 4rem;
         font-weight: 100;
         text-transform: uppercase;
+
+        // media queries
+        @include respond(tab-port) {
+            font-size: 3.5rem;
+        }
+    
+        @include respond(phone) {
+            font-size: 3rem;
+        }
     }
 
     &--sub {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
+        padding: 0 4rem;
+        margin-top: .5rem;
+
+        // media queries
+        @include respond(tab-port) {
+            font-size: 2rem;
+        }
+    
+        @include respond(phone) {
+            font-size: 1.5rem;
+        }
     }
 }
 
 .heading-secondary {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 300;
     text-transform: capitalize;
 
@@ -40,7 +60,8 @@ body {
         display: inline-block;
     }
 
-    @include respond(phone-tab) {
+    // media queries
+    @include respond(tab-port) {
         font-size: 2rem;
     }
 
@@ -61,12 +82,9 @@ body {
         text-align: justify;
     }
 
-    @include respond(phone-tab) {
-        font-size: 1.2rem;
-    }
-
-    @include respond(phone) {
-        font-size: 0.8rem;
+    &--justalign {
+        text-align-last: center;
+        text-align: justify;
     }
 }
 
@@ -77,8 +95,6 @@ body {
 // ------------------------------------ //
 
 h1, h2, h3, h4, stong {
-    margin-top: 1rem;
-    padding-top: 1rem;
     line-height: 1.25;
     color: $color-header-text;
 }
