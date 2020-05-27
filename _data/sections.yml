@@ -80,7 +80,7 @@
           caption: I continuied to study Biological Engineering
           alt: BE Communication Lab commkit page
           # 
-        - img: assets/img/outreach/awesom.png
+        - img: assets/img/outreach/awesome.jpg
           content:
             url: https://mit-becl.github.io/python-plotting-notes/
           caption: I continuied to study Biological Engineering
@@ -100,19 +100,16 @@
     - subheading: Design
       img: assets/img/skills/design.jpg
       content:
-        url: www.google.com
       caption: YYY 
       alt: Design skills
     - subheading: Hardware
       img: assets/img/skills/hardware.jpg
       content:
-        url: www.google.com
       caption: YYY 
       alt: filler
     - subheading: DevOps
       img: assets/img/skills/devops.jpg
       content: 
-        url: www.google.com 
       caption: YYY 
       alt: filler      
       
