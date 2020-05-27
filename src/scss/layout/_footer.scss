@@ -1,9 +1,7 @@
 .footer {
     // set position for z-index
     position: relative;
-
     text-align: center;
-
     padding: 1.5rem 4rem 4rem; // top, left/right, bottom
 
     background: $color-primary;
@@ -26,8 +24,10 @@
     }
 
     &__scrollup-icon {
-        font-size: 1.4rem;
-        font-weight: bold;
+        height: 1.4rem;
+        width: 1.4rem;
+        // font-size: 1.4rem;
+        // font-weight: bold;
         
         &:hover {
             animation-name: constantUpDown;
@@ -40,6 +40,23 @@
     
     &__header {
         margin-bottom: 4rem;
+
+        // equivalent side padding 
+        // as the content section
+        @include respond(tab-port) {
+            flex-wrap: wrap;
+            padding: 0 3rem;
+        }
+
+        @include respond(phone) {
+            flex-wrap: wrap;
+            padding: 0 3rem;
+        }
+
+        // hack to get the first paragraph
+        & > *:first-child {
+            margin-bottom: .5rem;
+        }
     }
 
     &__header-link {
