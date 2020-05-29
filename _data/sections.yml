@@ -1,12 +1,12 @@
 - id: id1
   heading: Academic
-  description: Pivotal academic and professional milestones that have allowed me to climb higher at each stage in my life.
+  description: An overview of the academic and professional milestones that have helped me climb higher at each stage of my life.
   group: 
     - subheading: UC Berkeley
       img: assets/img/academic/ucberkeley.jpg
       content:
         url: https://engineering.berkeley.edu/
-      caption: An amazing instution where I gained a passion for academic rigor and scientific pursuits. I received a B.S. in Bioengineering along with a degree in Electrical Engineering and Computer Science in 2014.
+      caption: I had the honor of attending UC Berkeley, an amazing instution where I gained a passion for academic rigor and scientific pursuits. I received a B.S. in Bioengineering along with a degree in Electrical Engineering and Computer Science in 2014. I studied under Professor David V. Schaffer (<a href="http://www.cchem.berkeley.edu/schaffer/">Scahffer Lab</a>)
       alt: UC Berkeley
       # 
     - subheading: MIT
@@ -136,7 +136,7 @@
   group: 
     - subheading: 
       img: assets/img/docs/resume.jpg
-      conetnt:
+      content:
         url: https://mrsunny0.github.io/resume-cv/
       caption: "" 
       alt: Resume
