@@ -7,6 +7,7 @@
       img: assets/img/academic/ucberkeley.jpg
       content:
         image: assets/img/academic/graduation.jpg
+        alt-link: https://engineering.berkeley.edu/
       caption: I had the honor of attending UC Berkeley, an amazing instution where I gained a passion for academic rigor and scientific discoveries. I received a B.S. in Bioengineering along with a degree in Electrical Engineering and Computer Science in 2014. I studied under Professor David V. Schaffer (<a href="http://www.cchem.berkeley.edu/schaffer/">Scahffer Lab</a>) and Mikhail Shapiro (<a href="http://shapirolab.caltech.edu/">Shapiro Lab</a>). While there I received the <a href="https://financialaid.berkeley.edu/regents-and-chancellors-scholarship">Regents & Chancellor's Scholarship</a>, Leadership Award, the <a href="https://www.nigms.nih.gov/training/IMSD">IMSD NIH Research Fellowship</a> and proudly led the Residential Tutoring Services. I had an incredible experience, and an opportunity of a lifetime.
       # 
     - subheading: MIT
@@ -15,6 +16,7 @@
           alt: Massachusetts Institute of Technology
           content:
             image: assets/img/academic/lab-selfie.jpg
+            alt-link: https://be.mit.edu/
           caption: My advisors at Berkeley greatly influenced my passion for the biological and engineering sciences. I began my PhD career in 2014 with advisor Angela Belcher (<a href="http://belcherlab.mit.edu/">Belcher Lab</a>). My research was at the intersection of synthetic biology and biomaterials, focusing on sustainable solutions for removing and remediating heavy metals. Several of my publications can be found at Nature Publication, and several personal projects will be published on bioRxiv. While at MIT I was awarded the Presidential Fellowship, the NSF Graduate Research Fellowship, the Bose Fellowship, and several other research-based grants.
           # 
         - img: assets/img/academic/thesis.jpg
@@ -28,7 +30,8 @@
         - img: assets/img/academic/medialab.jpg
           alt: Media Lab
           content:
-            url: https://www.media.mit.edu/
+            image: assets/img/academic/puma.jpg
+            alt-link: https://design.mit.edu/projects/making-sports-dynamic
           caption: While at MIT, I took a year to work on cross-displinary project with the Media Lb and Puma's Innovation Team. I worked under <a href="https://www.linkedin.com/in/federicocasalegno/">Federico Casalegno</a>, <a href="https://www.linkedin.com/in/yihyun-lim/">Yihyun Lim</a>, and Puma's Global Innovation Director <a href="https://www.linkedin.com/in/thecharliehaus/?locale=de_DE">Charles Johnson</a>. I ran their embedded design and electronics group, in hopes of creating a new wave of intelligent footwear. I got to see the design thinking, and creative energy that comes from both an academic institution and a world leading consumer brand, and this insight has shaped how I view problems from both an engineering and aesthetic perspective.
           # 
         - img: assets/img/academic/art.jpg
