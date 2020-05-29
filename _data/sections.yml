@@ -6,7 +6,7 @@
       alt: UC Berkeley
       img: assets/img/academic/ucberkeley.jpg
       content:
-        url: https://engineering.berkeley.edu/
+        image: assets/img/academic/graduation.jpg
       caption: I had the honor of attending UC Berkeley, an amazing instution where I gained a passion for academic rigor and scientific discoveries. I received a B.S. in Bioengineering along with a degree in Electrical Engineering and Computer Science in 2014. I studied under Professor David V. Schaffer (<a href="http://www.cchem.berkeley.edu/schaffer/">Scahffer Lab</a>) and Mikhail Shapiro (<a href="http://shapirolab.caltech.edu/">Shapiro Lab</a>). While there I received the <a href="https://financialaid.berkeley.edu/regents-and-chancellors-scholarship">Regents & Chancellor's Scholarship</a>, Leadership Award, the <a href="https://www.nigms.nih.gov/training/IMSD">IMSD NIH Research Fellowship</a> and proudly led the Residential Tutoring Services. I had an incredible experience, and an opportunity of a lifetime.
       # 
     - subheading: MIT
@@ -14,7 +14,7 @@
         - img: assets/img/academic/mit.jpg
           alt: Massachusetts Institute of Technology
           content:
-            url: https://engineering.mit.edu/
+            image: assets/img/academic/lab-selfie.jpg
           caption: My advisors at Berkeley greatly influenced my passion for the biological and engineering sciences. I began my PhD career in 2014 with advisor Angela Belcher (<a href="http://belcherlab.mit.edu/">Belcher Lab</a>). My research was at the intersection of synthetic biology and biomaterials, focusing on sustainable solutions for removing and remediating heavy metals. Several of my publications can be found at Nature Publication, and several personal projects will be published on bioRxiv. While at MIT I was awarded the Presidential Fellowship, the NSF Graduate Research Fellowship, the Bose Fellowship, and several other research-based grants.
           # 
         - img: assets/img/academic/thesis.jpg
@@ -40,7 +40,7 @@
 
 - id: id2
   heading: Projects
-  description: I am fond of pursuing projects requiring multi-disciplinary skills, and am continuing to learn more from them.
+  description: I am fond of pursuing projects requiring multi-disciplinary skills, and I continue to learn more from the more challenges I face.
   group: 
     - subheading: Prototyping Projects
       img: assets/img/projects/make.jpg
