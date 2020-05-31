@@ -39,7 +39,6 @@
           content:
             url: https://mrsunny0.github.io/website-media-lab/
           caption: There were three overaching projects, a material track, an electronics track, and a machine learning and intelligence track. The goal was to create a future fit shoe with the capacity to learn and respond to the user in a learned manner. This project, and subsequent showcase can be found by clicking the link above.
-      # 
 
 - id: id2
   heading: Projects
@@ -47,23 +46,23 @@
   group: 
     - subheading: Prototyping Projects
       img: assets/img/projects/make.jpg
+      alt: how to make anything
       content:
         url: https://mrsunny0.github.io/website-htmaa-portfolio/
-      caption: Inspired by the class - How to make (almost) anything 
-      alt: How To Make Anything   
+      caption: My skills are  
       # 
     - subheading: AI/ML Projects
       img: assets/img/projects/generate.jpg
+      alt: how to generate anything   
       content:
         url: https://howtogeneratealmostanything.com/
       caption: Inspired by the class - How to make (almost) anything 
-      alt: How to Generate Anything   
     - subheading: Hackathons
       img: assets/img/projects/hackathon.jpg
+      alt: hackathons   
       content:
         url: https://mrsunny0.github.io/website-projects/
       caption: See my public page of the portfolio of hackathons I participated in.
-      alt: Hackathons   
 
 - id: id3
   heading: Outreach
@@ -102,19 +101,19 @@
   group: 
     - subheading: Design
       img: assets/img/skills/design.jpg
+      alt: design skills
       content:
-      caption: YYY 
-      alt: Design skills
+      caption: Skills include <br> 
     - subheading: Hardware
       img: assets/img/skills/hardware.jpg
+      alt: hardware skills
       content:
       caption: YYY 
-      alt: filler
     - subheading: DevOps
+      alt: devops skills      
       img: assets/img/skills/devops.jpg
       content: 
       caption: YYY 
-      alt: filler      
       
 - id: id5
   heading: Affiliations
@@ -122,24 +121,26 @@
   group: 
     - subheading: NSF
       img: assets/img/affiliations/nsf.jpg
-      content:
-        url: https://www.nsf.gov/
-      caption: YYY 
       alt: National Science Foundation
+      content:
+        image: assets/img/affiliations/nsf-cover.jpg
+        alt-link: https://www.nsf.gov/
+      caption: YYY 
     - subheading: New Lab
       img: assets/img/affiliations/newlab.jpg
-      content:
-        url: www.google.com
-      caption: YYY 
       alt: New Lab
+      content:
+        image: assets/img/affiliations/newlab.jpg
+        alt-link: https://newlab.com/
+      caption: YYY 
 
 - id: id6
   heading: Resume
-  description: Feel free to check out my resume
+  description: 
   group: 
-    - subheading: 
+    - subheading: Feel free to check out my resume
       img: assets/img/docs/resume.jpg
+      alt: resume
       content:
         url: https://mrsunny0.github.io/resume-cv/
-      caption: "" 
-      alt: Resume
+      caption: ""

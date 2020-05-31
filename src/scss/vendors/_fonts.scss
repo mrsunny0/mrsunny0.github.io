@@ -1,2 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Raleway');
-@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Josefin+Slab|Antic+Slab');
+// https://web.dev/font-display/?utm_source=lighthouse&utm_medium=unknown
+// https://www.infyways.com/fix-ensure-text-remains-visible-during-webfont-load/
+// https://stackoverflow.com/questions/4872592/use-multiple-font-face-rules-in-css
+
+// @import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Raleway&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Josefin+Slab|Antic+Slab&display=swap');
+
+// @font-face {
+//     font-family: "Antic Slab";
+//     src: url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+//     font-display: swap;
+// }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
