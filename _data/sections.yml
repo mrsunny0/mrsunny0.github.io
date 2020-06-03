@@ -83,7 +83,7 @@
 
 - id: id3
   heading: Outreach
-  description: description
+  description: I am a firm believer of paying it forward, and for me, that means to teach and inspire the next generation of movers and shakers.
   group: 
     - subheading: Communication Lab
       subgroup:
@@ -125,12 +125,12 @@
         image: assets/img/outreach/ein-photo.jpg
         alt-link: https://www.une.edu/provost/resources/makerspace-and-student-innovation-challenge
       caption: 
-        short: I worked closely with Anthony Santella from 2017-2019 on opening their P.D. Merrill Makerspace at the Unversity of Maine. The culmination of our work were the annual Student Innovation Challenge.  
-        popup: 
+        short: I worked closely with Anthony Santella from 2017-2019 on opening their P.D. Merrill Makerspace at the Unversity of Maine. The culmination of our work were the annual Student Innovation Challenge. 
+        popup:  
 
 - id: id4
   heading: Skills
-  description: description
+  description: I've been exposed to, and collected, a variety of skills throughout my career. Here is just a list of some interesting skills I use everyday.
   group: 
     - subheading: Design
       img: assets/img/skills/design.jpg
@@ -138,7 +138,7 @@
       content:
       caption: 
         list:
-          header: Design experience include
+          header: Design experience
           items: 
             - Fellowship</a>
             - aef fawoefihoawifh owihef owaihef owaihfe owihef owihaefo ihwof ihwaeio
@@ -150,7 +150,7 @@
       content:
       caption: 
         list:
-          header: Design experience include
+          header: Prototyping experience
           items: 
             - Fellowship</a>
             - aef 
@@ -162,38 +162,45 @@
       content: 
       caption: 
         list:
-          header: Design experience include
+          header: DevOps experience
           items: 
             - Fellowship</a>
             - aef 
             - fea 
       
-# - id: id5
-#   heading: Affiliations
-#   description: description
-#   group: 
-#     - subheading: NSF
-#       img: assets/img/affiliations/nsf.jpg
-#       alt: National Science Foundation
-#       content:
-#         image: assets/img/affiliations/nsf-cover.jpg
-#         alt-link: https://www.nsf.gov/
-#       caption: YYY 
-#     - subheading: New Lab
-#       img: assets/img/affiliations/newlab.jpg
-#       alt: New Lab
-#       content:
-#         image: assets/img/affiliations/newlab.jpg
-#         alt-link: https://newlab.com/
-#       caption: YYY 
+- id: id5
+  heading: Affiliations
+  description: I have the honor of being part of create organizations and institutions, these are the groups I am currently active in.
+  group: 
+    - subheading: NSF
+      img: assets/img/affiliations/nsf.jpg
+      alt: National Science Foundation
+      content:
+        image: assets/img/affiliations/nsf-cover.jpg
+        alt-link: https://www.nsf.gov/
+      caption:
+        short:
+        popoup: 
+      #  
+    - subheading: New Lab
+      img: assets/img/affiliations/newlab.jpg
+      alt: New Lab
+      content:
+        image: assets/img/affiliations/newlab.jpg
+        alt-link: https://newlab.com/
+      caption: 
+        short:
+        popoup: 
 
-# - id: id6
-#   heading: Resume
-#   description: 
-#   group: 
-#     - subheading: Feel free to check out my resume
-#       img: assets/img/docs/resume.jpg
-#       alt: resume
-#       content:
-#         url: https://mrsunny0.github.io/resume-cv/
-#       caption: ""
+- id: id6
+  heading: Documents
+  description:
+  group: 
+    - subheading: Resume
+      img: assets/img/docs/resume.jpg
+      alt: resume
+      content:
+        url: https://mrsunny0.github.io/resume-cv/
+      caption:
+        short:
+        popup:
