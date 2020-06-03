@@ -8,7 +8,9 @@
       content:
         image: assets/img/academic/graduation.jpg
         alt-link: https://engineering.berkeley.edu/
-      caption: I had the honor of attending UC Berkeley, an amazing instution where I gained a passion for academic rigor and scientific discoveries. I received a B.S. in Bioengineering along with a degree in Electrical Engineering and Computer Science in 2014. I studied under Professor David V. Schaffer (<a href="http://www.cchem.berkeley.edu/schaffer/">Scahffer Lab</a>) and Mikhail Shapiro (<a href="http://shapirolab.caltech.edu/">Shapiro Lab</a>). While there I received the <a href="https://financialaid.berkeley.edu/regents-and-chancellors-scholarship">Regents & Chancellor's Scholarship</a>, Leadership Award, the <a href="https://www.nigms.nih.gov/training/IMSD">IMSD NIH Research Fellowship</a> and proudly led the Residential Tutoring Services. I had an incredible experience, and an opportunity of a lifetime.
+      caption: 
+        short: I went to UC Berkeley
+        popup: I had the honor of attending UC Berkeley, an amazing instution where I gained a passion for academic rigor and scientific discoveries. I received a B.S. in Bioengineering along with a degree in Electrical Engineering and Computer Science in 2014. I studied under Professor David V. Schaffer (<a href="http://www.cchem.berkeley.edu/schaffer/">Scahffer Lab</a>) and Mikhail Shapiro (<a href="http://shapirolab.caltech.edu/">Shapiro Lab</a>). While there I received the <a href="https://financialaid.berkeley.edu/regents-and-chancellors-scholarship">Regents & Chancellor's Scholarship</a>, Leadership Award, the <a href="https://www.nigms.nih.gov/training/IMSD">IMSD NIH Research Fellowship</a> and proudly led the Residential Tutoring Services. I had an incredible experience, and an opportunity of a lifetime.
       # 
     - subheading: MIT
       subgroup:
@@ -17,13 +19,17 @@
           content:
             image: assets/img/academic/lab-selfie.jpg
             alt-link: https://be.mit.edu/
-          caption: My advisors at Berkeley greatly influenced my passion for the biological and engineering sciences. I began my PhD career in 2014 with advisor Angela Belcher (<a href="http://belcherlab.mit.edu/">Belcher Lab</a>). My research was at the intersection of synthetic biology and biomaterials, focusing on sustainable solutions for removing and remediating heavy metals. Several of my publications can be found at Nature Publication, and several personal projects will be published on bioRxiv. While at MIT I was awarded the Presidential Fellowship, the NSF Graduate Research Fellowship, the Bose Fellowship, and several other research-based grants.
+          caption: 
+            short: fe
+            popup: My advisors at Berkeley greatly influenced my passion for the biological and engineering sciences. I began my PhD career in 2014 with advisor Angela Belcher (<a href="http://belcherlab.mit.edu/">Belcher Lab</a>). My research was at the intersection of synthetic biology and biomaterials, focusing on sustainable solutions for removing and remediating heavy metals. Several of my publications can be found at Nature Publication, and several personal projects will be published on bioRxiv. While at MIT I was awarded the Presidential Fellowship, the NSF Graduate Research Fellowship, the Bose Fellowship, and several other research-based grants.
           # 
         - img: assets/img/academic/thesis.jpg
           alt: MIT Thesis
           content:
             url: https://mrsunny0.github.io/website-phd-thesis/
-          caption: My thesis was titled <i>Engineering Yeast for Heavy Metal Waste Remediation</i>, and contains work related to methods, strategies, and inventions on engineering yeast (the common Baker's yeast) as an agent to sequester, consume, and recycle heavy metals from waste environments. Those interested can read my <a href="https://mrsunny0.github.io/phd-thesis/">dissertation</a>, defended on June 6th, 2019. The study required an interdisciplinary combination of synthetic biology, protein engineering, and material science which caters itself to a broad range of scientific audiences and enthusiasts.
+          caption: 
+            short: feoaoi
+            popup: My thesis was titled <i>Engineering Yeast for Heavy Metal Waste Remediation</i>, and contains work related to methods, strategies, and inventions on engineering yeast (the common Baker's yeast) as an agent to sequester, consume, and recycle heavy metals from waste environments. Those interested can read my <a href="https://mrsunny0.github.io/phd-thesis/">dissertation</a>, defended on June 6th, 2019. The study required an interdisciplinary combination of synthetic biology, protein engineering, and material science which caters itself to a broad range of scientific audiences and enthusiasts.
       # 
     - subheading: Media Lab
       subgroup:
@@ -32,115 +38,119 @@
           content:
             image: assets/img/academic/puma.jpg
             alt-link: https://design.mit.edu/projects/making-sports-dynamic
-          caption: While at MIT, I took a year to work on cross-displinary project with the Media Lb and Puma's Innovation Team. I worked under <a href="https://www.linkedin.com/in/federicocasalegno/">Federico Casalegno</a>, <a href="https://www.linkedin.com/in/yihyun-lim/">Yihyun Lim</a>, and Puma's Global Innovation Director <a href="https://www.linkedin.com/in/thecharliehaus/?locale=de_DE">Charles Johnson</a>. I ran their embedded design and electronics group, in hopes of creating a new wave of intelligent footwear. I got to see the design thinking, and creative energy that comes from both an academic institution and a world leading consumer brand, and this insight has shaped how I view problems from both an engineering and aesthetic perspective.
+          caption: 
+            short: feowih
+            popup: While at MIT, I took a year to work on cross-displinary project with the Media Lb and Puma's Innovation Team. I worked under <a href="https://www.linkedin.com/in/federicocasalegno/">Federico Casalegno</a>, <a href="https://www.linkedin.com/in/yihyun-lim/">Yihyun Lim</a>, and Puma's Global Innovation Director <a href="https://www.linkedin.com/in/thecharliehaus/?locale=de_DE">Charles Johnson</a>. I ran their embedded design and electronics group, in hopes of creating a new wave of intelligent footwear. I got to see the design thinking, and creative energy that comes from both an academic institution and a world leading consumer brand, and this insight has shaped how I view problems from both an engineering and aesthetic perspective.
           # 
         - img: assets/img/academic/art.jpg
           alt: Design Lab
           content:
             url: https://mrsunny0.github.io/website-media-lab/
-          caption: There were three overaching projects, a material track, an electronics track, and a machine learning and intelligence track. The goal was to create a future fit shoe with the capacity to learn and respond to the user in a learned manner. This project, and subsequent showcase can be found by clicking the link above.
+          caption: 
+            short: feoaiweh
+            popup: There were three overaching projects, a material track, an electronics track, and a machine learning and intelligence track. The goal was to create a future fit shoe with the capacity to learn and respond to the user in a learned manner. This project, and subsequent showcase can be found by clicking the link above.
 
-- id: id2
-  heading: Projects
-  description: I am fond of pursuing projects requiring multi-disciplinary skills, and I continue to learn more from the more challenges I face.
-  group: 
-    - subheading: Prototyping Projects
-      img: assets/img/projects/make.jpg
-      alt: how to make anything
-      content:
-        url: https://mrsunny0.github.io/website-htmaa-portfolio/
-      caption: My skills are  
-      # 
-    - subheading: AI/ML Projects
-      img: assets/img/projects/generate.jpg
-      alt: how to generate anything   
-      content:
-        url: https://howtogeneratealmostanything.com/
-      caption: Inspired by the class - How to make (almost) anything 
-    - subheading: Hackathons
-      img: assets/img/projects/hackathon.jpg
-      alt: hackathons   
-      content:
-        url: https://mrsunny0.github.io/website-projects/
-      caption: See my public page of the portfolio of hackathons I participated in.
+# - id: id2
+#   heading: Projects
+#   description: I am fond of pursuing projects requiring multi-disciplinary skills, and I continue to learn more from the more challenges I face.
+#   group: 
+#     - subheading: Prototyping Projects
+#       img: assets/img/projects/make.jpg
+#       alt: how to make anything
+#       content:
+#         url: https://mrsunny0.github.io/website-htmaa-portfolio/
+#       caption: My skills are  
+#       # 
+#     - subheading: AI/ML Projects
+#       img: assets/img/projects/generate.jpg
+#       alt: how to generate anything   
+#       content:
+#         url: https://howtogeneratealmostanything.com/
+#       caption: Inspired by the class - How to make (almost) anything 
+#     - subheading: Hackathons
+#       img: assets/img/projects/hackathon.jpg
+#       alt: hackathons   
+#       content:
+#         url: https://mrsunny0.github.io/website-projects/
+#       caption: See my public page of the portfolio of hackathons I participated in.
 
-- id: id3
-  heading: Outreach
-  description: description
-  group: 
-    - subheading: Communication Lab
-      subgroup:
-        - img: assets/img/outreach/mic.jpg
-          content:
-            url: https://mitcommlab.mit.edu/
-          caption: I continuied to study Biological Engineering
-          alt: BE Communication Lab homepage
-          # 
-        - img: assets/img/outreach/book.jpg
-          content:
-            url: https://mitcommlab.mit.edu/be/use-the-commkit/
-          caption: I continuied to study Biological Engineering
-          alt: BE Communication Lab commkit page
-          # 
-        - img: assets/img/outreach/awesome.jpg
-          content:
-            url: https://mit-becl.github.io/python-plotting-notes/
-          caption: I continuied to study Biological Engineering
-          alt: BE Communication Lab github page
-      # 
-    - subheading: Entrepreneur in residence
-      img: assets/img/outreach/ein.jpg
-      content:
-        url: https://www.une.edu/provost/resources/makerspace-and-student-innovation-challenge
-      caption: YYY 
-      alt: entrepreneur in residence   
+# - id: id3
+#   heading: Outreach
+#   description: description
+#   group: 
+#     - subheading: Communication Lab
+#       subgroup:
+#         - img: assets/img/outreach/mic.jpg
+#           content:
+#             url: https://mitcommlab.mit.edu/
+#           caption: I continuied to study Biological Engineering
+#           alt: BE Communication Lab homepage
+#           # 
+#         - img: assets/img/outreach/book.jpg
+#           content:
+#             url: https://mitcommlab.mit.edu/be/use-the-commkit/
+#           caption: I continuied to study Biological Engineering
+#           alt: BE Communication Lab commkit page
+#           # 
+#         - img: assets/img/outreach/awesome.jpg
+#           content:
+#             url: https://mit-becl.github.io/python-plotting-notes/
+#           caption: I continuied to study Biological Engineering
+#           alt: BE Communication Lab github page
+#       # 
+#     - subheading: Entrepreneur in residence
+#       img: assets/img/outreach/ein.jpg
+#       content:
+#         url: https://www.une.edu/provost/resources/makerspace-and-student-innovation-challenge
+#       caption: YYY 
+#       alt: entrepreneur in residence   
 
-- id: id4
-  heading: Skills
-  description: description
-  group: 
-    - subheading: Design
-      img: assets/img/skills/design.jpg
-      alt: design skills
-      content:
-      caption: Skills include <br> 
-    - subheading: Hardware
-      img: assets/img/skills/hardware.jpg
-      alt: hardware skills
-      content:
-      caption: YYY 
-    - subheading: DevOps
-      alt: devops skills      
-      img: assets/img/skills/devops.jpg
-      content: 
-      caption: YYY 
+# - id: id4
+#   heading: Skills
+#   description: description
+#   group: 
+#     - subheading: Design
+#       img: assets/img/skills/design.jpg
+#       alt: design skills
+#       content:
+#       caption: Skills include <br> 
+#     - subheading: Hardware
+#       img: assets/img/skills/hardware.jpg
+#       alt: hardware skills
+#       content:
+#       caption: YYY 
+#     - subheading: DevOps
+#       alt: devops skills      
+#       img: assets/img/skills/devops.jpg
+#       content: 
+#       caption: YYY 
       
-- id: id5
-  heading: Affiliations
-  description: description
-  group: 
-    - subheading: NSF
-      img: assets/img/affiliations/nsf.jpg
-      alt: National Science Foundation
-      content:
-        image: assets/img/affiliations/nsf-cover.jpg
-        alt-link: https://www.nsf.gov/
-      caption: YYY 
-    - subheading: New Lab
-      img: assets/img/affiliations/newlab.jpg
-      alt: New Lab
-      content:
-        image: assets/img/affiliations/newlab.jpg
-        alt-link: https://newlab.com/
-      caption: YYY 
+# - id: id5
+#   heading: Affiliations
+#   description: description
+#   group: 
+#     - subheading: NSF
+#       img: assets/img/affiliations/nsf.jpg
+#       alt: National Science Foundation
+#       content:
+#         image: assets/img/affiliations/nsf-cover.jpg
+#         alt-link: https://www.nsf.gov/
+#       caption: YYY 
+#     - subheading: New Lab
+#       img: assets/img/affiliations/newlab.jpg
+#       alt: New Lab
+#       content:
+#         image: assets/img/affiliations/newlab.jpg
+#         alt-link: https://newlab.com/
+#       caption: YYY 
 
-- id: id6
-  heading: Resume
-  description: 
-  group: 
-    - subheading: Feel free to check out my resume
-      img: assets/img/docs/resume.jpg
-      alt: resume
-      content:
-        url: https://mrsunny0.github.io/resume-cv/
-      caption: ""
+# - id: id6
+#   heading: Resume
+#   description: 
+#   group: 
+#     - subheading: Feel free to check out my resume
+#       img: assets/img/docs/resume.jpg
+#       alt: resume
+#       content:
+#         url: https://mrsunny0.github.io/resume-cv/
+#       caption: ""
