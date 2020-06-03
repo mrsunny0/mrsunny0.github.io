@@ -87,42 +87,46 @@
   group: 
     - subheading: Communication Lab
       subgroup:
-        - img: assets/img/outreach/mic.jpg
-          alt: BE Communication Lab homepage
-          content:
-            image: 
-            alt-link: https://mitcommlab.mit.edu/
-          caption: 
-            short: I continuied to study Biological Engineering
-            long: 
+      - img: assets/img/outreach/mic.jpg
+        alt: BE Communication Lab homepage
+        content:
+          image: assets/img/outreach/poster-award.jpg
+          alt-link: https://mitcommlab.mit.edu/
+        caption: 
+          short: I worked as a Fellow at the Biological Engineering Communication Lab, where we trained and mentored those interested in crafting compelling written, visual, and oral scientific narratives. 
+          popup: >
+            <a href="https://www.facebook.com/MITBiologicalEngineering/photos/whos-up-to-bats-this-friday-george-sun-belcher-lab-using-yeast-to-clean-contamin/1886986934679120/">Seminar speaker</a>
+            <a href="https://www.facebook.com/MITBiologicalEngineering/photos/george-sun-of-angela-belcher-lab-addresses-the-be-retreat-attendees/1715884501789365/">Department speaker</a>
+            <a href="http://news.mit.edu/2018/center-environmental-health-sciences-selects-poster-winners-0420">Poster winner</a>
           # 
-        - img: assets/img/outreach/book.jpg
-          alt: BE Communication Lab commkit page
-          content:
-            image: 
-            alt-link: https://mitcommlab.mit.edu/be/use-the-commkit/
-          caption: 
-            short: I continuied to study Biological Engineering
-            long: 
+      - img: assets/img/outreach/book.jpg
+        alt: BE Communication Lab commkit page
+        content:
+          image:  
+          alt-link: https://gelp.mit.edu/grad-creative-teams
+        caption: 
+          short: I worked as a Teaching Assistant for Professor David Ni&ntilde;o in his course <i><Leading Creative Teams/i>, where I held a seminar on effective verbal and nonverbal messaging, and judged students on their leadership narrative.
+          popup: 
           # 
-        - img: assets/img/outreach/awesome.jpg
-          alt: BE Communication Lab github page
-          content:
-            image: 
-            alt-link: https://mit-becl.github.io/python-plotting-notes/
-          caption: 
-            short: I continuied to study Biological Engineering
-            long: 
-      # 
+      - img: assets/img/outreach/awesome.jpg
+        alt: BE Communication Lab github page
+        content:
+          pdf: assets/img/outreach/awesome-ghpage.pdf
+          alt-link: https://github.com/MIT-BECL/
+        caption: 
+          short: I continuied to study Biological Engineering
+          popup: 
+        # 
     - subheading: Entrepreneur in residence
       img: assets/img/outreach/ein.jpg
       alt: entrepreneur in residence   
       content:
-        image: 
+        url: https://www.youtube.com/embed/ikZb9Mb4N-4
+        image: assets/img/outreach/ein-photo.jpg
         alt-link: https://www.une.edu/provost/resources/makerspace-and-student-innovation-challenge
       caption: 
-        short: YYY 
-        long: 
+        short: I worked closely with Anthony Santella from 2017-2019 on opening their P.D. Merrill Makerspace at the Unversity of Maine. The culmination of our work were the annual Student Innovation Challenge.  
+        popup: 
 
 # - id: id4
 #   heading: Skills
