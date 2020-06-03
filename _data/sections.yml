@@ -128,25 +128,45 @@
         short: I worked closely with Anthony Santella from 2017-2019 on opening their P.D. Merrill Makerspace at the Unversity of Maine. The culmination of our work were the annual Student Innovation Challenge.  
         popup: 
 
-# - id: id4
-#   heading: Skills
-#   description: description
-#   group: 
-#     - subheading: Design
-#       img: assets/img/skills/design.jpg
-#       alt: design skills
-#       content:
-#       caption: Skills include <br> 
-#     - subheading: Hardware
-#       img: assets/img/skills/hardware.jpg
-#       alt: hardware skills
-#       content:
-#       caption: YYY 
-#     - subheading: DevOps
-#       alt: devops skills      
-#       img: assets/img/skills/devops.jpg
-#       content: 
-#       caption: YYY 
+- id: id4
+  heading: Skills
+  description: description
+  group: 
+    - subheading: Design
+      img: assets/img/skills/design.jpg
+      alt: design skills
+      content:
+      caption: 
+        list:
+          header: Design experience include
+          items: 
+            - Fellowship</a>
+            - aef 
+            - fea 
+      # 
+    - subheading: Hardware
+      img: assets/img/skills/hardware.jpg
+      alt: hardware skills
+      content:
+      caption: 
+        list:
+          header: Design experience include
+          items: 
+            - Fellowship</a>
+            - aef 
+            - fea 
+      # 
+    - subheading: DevOps
+      alt: devops skills      
+      img: assets/img/skills/devops.jpg
+      content: 
+      caption: 
+        list:
+          header: Design experience include
+          items: 
+            - Fellowship</a>
+            - aef 
+            - fea 
       
 # - id: id5
 #   heading: Affiliations
