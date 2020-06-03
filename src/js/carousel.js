@@ -9,7 +9,7 @@ var all_carousel_objects = all_carousel_containers.map((e, i) => {
     return {
         "element": e,
         "index_number": i,
-        "slide_index": 1
+        "slide_index": 0
     }
 })
 
@@ -65,7 +65,6 @@ function showSlide(carousel_container, change) {
     }    
     if (slide_index < 0) {
         slide_index = slides.length -1
-
     }
 
     // hide everything first
@@ -80,15 +79,36 @@ function showSlide(carousel_container, change) {
     }
 
     // hide and present slides/dots
-    slides[slide_index].style.display = "block";  
+    slides[slide_index].style.display = "flex";  
     dots[slide_index].className += " active";  
-    paragraphs[slide_index].style.display = "inline";
+    paragraphs[slide_index].style.display = "flex";
 
     // update carousel object (array object indexing is pass by reference)
     carousel_object.slide_index = slide_index;
 }
 
 // initialize by showing the first slide of each carousel
-for (carousel_container of all_carousel_containers) {
+// and create timer for each set of carousel in a group
+var carousel_group = ""
+var group_timer = 0
+var mmax = 30, mmin = 15
+var interval_list = []
+for (let carousel_container of all_carousel_containers) {
+    // show first slide
     showSlide(carousel_container, 0);
+
+    // get carousel group id
+    var new_carousel_group = carousel_container.parentElement.parentElement.parentElement.id
+    if (carousel_group !== new_carousel_group) {
+        carousel_group = new_carousel_group
+        group_timer = Math.floor((Math.random() * (mmax - mmin) + mmin) * 1e3) 
+        console.log("timer for " + carousel_group + " is: " + group_timer/1000 + " sec")
+    }
+
+    // set interval
+    interval_list.push(
+            setInterval(() => {
+            showSlide(carousel_container, "+1")
+        }, group_timer)
+    )
 }

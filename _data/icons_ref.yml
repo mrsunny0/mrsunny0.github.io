@@ -1,0 +1,19 @@
+- label: Email
+  icon: mail
+  href: mailto:george.lele-x.sun@gmail.com
+
+- label: Code
+  icon: code
+  href: https://github.com/mrsunny0/template-gh-pages
+
+- label: Github
+  icon: github
+  href: https://www.github.com/mrsunny0
+
+- label: LinkedIn
+  icon: linkedin 
+  href: https://www.linkedin.com/in/george-lele-sun/
+
+- label: Scholar
+  icon: scholar-cap
+  href: https://scholar.google.com/citations?user=e49qUnMAAAAJ&hl=en

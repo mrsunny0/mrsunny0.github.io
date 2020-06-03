@@ -94,6 +94,15 @@ body {
         text-align-last: left;
     }
 
+    &--left {
+        text-align: left;
+    }
+
+    &--popup {
+        font-size: 1.4rem;
+        text-align: justify;
+    }
+
     a {
         display: inline-block;
         color: $color-paragraph-link;
