@@ -19,11 +19,11 @@
     margin: $section-margins-topbottom $section-margins-side;
 
     &:not(:last-child) {
-        margin-bottom: $section-margins-topbottom*2;
+        margin-bottom: $section-margins-topbottom;
     }
 
     &--overlay:not(:first-child) {
-        margin-top: $section-margins-topbottom;
+        margin-bottom: $section-margins-topbottom;
     }
 }
 
