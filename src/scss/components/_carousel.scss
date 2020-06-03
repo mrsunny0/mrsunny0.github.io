@@ -29,7 +29,7 @@
 
         // this is needed for js selection
         &--paragraph {
-            width: $caption-list-width;
+            // min-width: $caption-list-width;
             flex-direction: column;
             align-items: center;
             display: none;
