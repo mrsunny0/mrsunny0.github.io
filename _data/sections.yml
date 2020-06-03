@@ -179,7 +179,7 @@
         image: assets/img/affiliations/nsf-cover.jpg
         alt-link: https://www.nsf.gov/
       caption:
-        short:
+        short: I have had the privilege to be funded by the National Science Foundation since my undergraduate career.
         popoup: 
       #  
     - subheading: New Lab
@@ -189,8 +189,18 @@
         image: assets/img/affiliations/newlab.jpg
         alt-link: https://newlab.com/
       caption: 
-        short:
+        short: Since becoming an entrepreneur, I 
         popoup: 
+      # 
+    - subheading: Hardware Club
+      img: assets/img/affiliations/hardware-club.jpg
+      alt: New Lab
+      content:
+        image: assets/img/affiliations/newlab.jpg
+        alt-link: https://newlab.com/
+      caption: 
+        short: Since becoming an entrepreneur, I 
+        popoup:         
 
 - id: id6
   heading: Documents
