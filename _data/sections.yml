@@ -61,7 +61,7 @@
         url: https://mrsunny0.github.io/website-htmaa-portfolio/
       caption: 
         short: I took <i>How to Make (Almost) Anything</i>, a course taught by Neil Gershenfeld. It was one of the few courses that changed my perspective to making, and that is, anything can be made with the right ingenuity.
-        long: 
+        popup: 
       # 
     - subheading: AI/ML Projects
       img: assets/img/projects/generate.jpg
@@ -70,7 +70,7 @@
         url: https://howtogeneratealmostanything.com/
       caption: 
         short: Inspired by physical creations, I collaborated with Pinar Yanardag from the Media Lab to digitally create new ideas. Inspired from How to Make, we worked on a theme titled &mdash; <i>How to Generate (Almost) Anything</i>
-        long: 
+        popup: 
       # 
     - subheading: Hackathons
       img: assets/img/projects/hackathon.jpg
@@ -79,7 +79,7 @@
         url: https://mrsunny0.github.io/website-projects/
       caption: 
         short: Early in my academic career, I participated in several hackathons to learn new skills, but also test my abilities to brainstorm, prototype, and invent under stressful and constrained circumstances. 
-        long: 
+        popup: 
 
 - id: id3
   heading: Outreach
@@ -105,7 +105,7 @@
           image:  
           alt-link: https://gelp.mit.edu/grad-creative-teams
         caption: 
-          short: I worked as a Teaching Assistant for Professor David Ni&ntilde;o in his course <i><Leading Creative Teams/i>, where I held a seminar on effective verbal and nonverbal messaging, and judged students on their leadership narrative.
+          short: I worked as a Teaching Assistant for Professor David Ni&ntilde;o in his course <i>Leading Creative Teams</i>, where I held a seminar on effective verbal and nonverbal messaging, and judged students on their leadership narrative.
           popup: 
           # 
       - img: assets/img/outreach/awesome.jpg
