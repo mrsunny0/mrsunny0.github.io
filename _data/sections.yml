@@ -183,20 +183,30 @@
         popoup: 
       #  
     - subheading: New Lab
-      img: assets/img/affiliations/newlab.jpg
-      alt: New Lab
-      content:
-        image: assets/img/affiliations/newlab.jpg
-        alt-link: https://newlab.com/
-      caption: 
-        short: Since becoming an entrepreneur, I 
-        popoup: 
+      subgroup:
+        - img: assets/img/affiliations/newlab.jpg
+          alt: New Lab
+          content:
+            url: https://www.youtube.com/embed/eLw_xkfDygI
+            alt-link: https://newlab.com/
+          caption: 
+            short: Since becoming an entrepreneur, I 
+            popoup:
+            #  
+        - img: assets/img/affiliations/newlab.jpg
+          alt: New Lab
+          content:
+            video: assets/video/stitching.mp4
+            alt-link: https://newlab.com/
+          caption: 
+            short: Since becoming an entrepreneur, I 
+            popoup:             
       # 
     - subheading: Hardware Club
       img: assets/img/affiliations/hardware-club.jpg
       alt: New Lab
       content:
-        image: assets/img/affiliations/newlab.jpg
+        image: assets/img/affiliations/hardware-virtual.jpg
         alt-link: https://newlab.com/
       caption: 
         short: Since becoming an entrepreneur, I 
