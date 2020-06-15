@@ -69,7 +69,8 @@
         url: https://mrsunny0.github.io/website-htmaa-portfolio/
       caption: 
         short: I took <i>How to Make (Almost) Anything</i>, a course taught by Neil Gershenfeld. It was one of the few courses that changed my perspective to making, and that is, anything can be made with the right ingenuity.
-        popup: 
+        popup: >
+
       # 
     - subheading: AI/ML Projects
       img: assets/img/projects/generate.jpg
@@ -78,7 +79,8 @@
         url: https://howtogeneratealmostanything.com/
       caption: 
         short: Inspired by physical creations, I collaborated with Pinar Yanardag from the Media Lab to digitally create new ideas. Inspired from How to Make, we worked on a theme titled &mdash; <i>How to Generate (Almost) Anything</i>
-        popup: 
+        popup: >
+
       # 
     - subheading: Hackathons
       img: assets/img/projects/hackathon.jpg
@@ -87,7 +89,8 @@
         url: https://mrsunny0.github.io/website-projects/
       caption: 
         short: Early in my academic career, I participated in several hackathons to learn new skills, but also test my abilities to brainstorm, prototype, and invent under stressful and constrained circumstances. 
-        popup: 
+        popup: >
+
 
 - id: id3
   heading: Outreach
@@ -103,14 +106,15 @@
         caption: 
           short: I trained as a Fellow at the Biological Engineering Communication Lab, where we mentored those interested in crafting compelling written, visual, and oral scientific narratives. 
           popup: >
-            I worked closely with Diana Chen and Prerna Bhargava
-          
-            <a href="https://www.facebook.com/MITBiologicalEngineering/photos/whos-up-to-bats-this-friday-george-sun-belcher-lab-using-yeast-to-clean-contamin/1886986934679120/">Seminar speaker</a>
-
-            <a href="https://www.facebook.com/MITBiologicalEngineering/photos/george-sun-of-angela-belcher-lab-addresses-the-be-retreat-attendees/1715884501789365/">Department speaker</a>
-
-            <a href="http://news.mit.edu/2018/center-environmental-health-sciences-selects-poster-winners-0420">Poster winner</a>
-
+            I worked closely with 
+            <a href="https://mitcommlab.mit.edu/be/fellows_staff/diana-chien-2/">Diana Chen</a> and 
+            <a href="https://mitcommlab.mit.edu/be/fellows_staff/prerna-bhargava/">Prerna Bhargava</a> to schedule Comm Lab appointments, go through trainings, and host seminars and work sessions for students. Linked below are some of the publicity I received during my time as a Comm Fellow:
+              <br>
+              &#8250; <a href="https://www.facebook.com/MITBiologicalEngineering/photos/whos-up-to-bats-this-friday-george-sun-belcher-lab-using-yeast-to-clean-contamin/1886986934679120/">Seminar speaker</a>
+              <br>
+              &#8250; <a href="https://www.facebook.com/MITBiologicalEngineering/photos/george-sun-of-angela-belcher-lab-addresses-the-be-retreat-attendees/1715884501789365/">Department speaker</a>
+              <br>
+              &#8250; <a href="http://news.mit.edu/2018/center-environmental-health-sciences-selects-poster-winners-0420">Poster winner</a>    
           # 
       - img: assets/img/outreach/book.jpg
         alt: BE Communication Lab commkit page

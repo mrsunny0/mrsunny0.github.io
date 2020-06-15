@@ -5,6 +5,9 @@ const display_toggle = document.getElementById("display-toggle");
 const display_toggle_checkbox = document.getElementById("display-toggle-checkbox");
 const navigation = document.getElementById('navigation');
 
+// stop video
+// https://stackoverflow.com/questions/15164942/stop-embedded-youtube-iframe
+
 /***********************
  * toggle display types
  ***********************/
@@ -107,7 +110,7 @@ window.addEventListener('scroll', () => {
 navigation.style.opacity = 0
 
 /***********************
- * toggle scroll hide
+ * toggle navigation hide
  ***********************/
 const navigation_checkbox = document.getElementById("navi-toggle");
 const navigation_navcontainer = navigation.querySelector(".navigation__nav");
@@ -123,4 +126,58 @@ const navigation_navitem = navigation.querySelector(".navigation__item");
         }
     })
 })
+
+/***********************
+ * start stop videos
+ ***********************/
+// play
+var figure_captions = document.getElementsByClassName("figure__caption")
+
+// remember there are duplicate references, because of grid and list display
+for (let i = 0; i < figure_captions.length/2; i++) {
+    // get the reference to the popup
+    var figure_caption = figure_captions[i]
+    var a = figure_caption.getElementsByTagName("a")[0]
+    var href = a.href 
+    var popup_id = href.split("#")[1]
+    
+    // access popup and video, then set play
+    let popup = document.getElementById(popup_id)
+
+    // set on click listener
+    a.addEventListener("click", () => {
+        // if youtube video exists
+        let yvideo = popup.querySelector(".yvideo")
+        if (yvideo) {
+            yvideo.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*')
+        }
+      
+        // if video exists
+        let video = popup.querySelector(".popup__left--video")
+        if (video) {
+            video.play()
+        }
+    })
+}
+
+// pause
+for (let p of popup_containers) {
+    var ahref = p.querySelector(".popup__close")
+    
+    // if youtube video exists
+    let yvideo = p.querySelector(".yvideo")
+    if (yvideo) {
+        ahref.addEventListener("click", () => {
+            yvideo.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*')
+        })
+    }
+
+    // if video exists
+    let video = p.querySelector(".popup__left--video")
+    if (video) {
+        ahref.addEventListener("click", () => {
+            video.pause()
+        })
+    }
+}
 
