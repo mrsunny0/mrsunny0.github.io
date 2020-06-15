@@ -119,12 +119,13 @@
       - img: assets/img/outreach/book.jpg
         alt: BE Communication Lab commkit page
         content:
-          image:  
+          image: assets/img/outreach/exp-presentation.jpg
           alt-link: https://gelp.mit.edu/grad-creative-teams
         caption: 
           short: I worked as a Teaching Assistant for Professor David Ni&ntilde;o in his course <i>Leading Creative Teams</i>, where I held a seminar on effective verbal and nonverbal messaging, and judged students on their leadership narrative.
           popup: >
             My first year involved
+            <a href="https://gelp.mit.edu/grad-creative-teams"></a>
           # 
       - img: assets/img/outreach/awesome.jpg
         alt: BE Communication Lab github page
