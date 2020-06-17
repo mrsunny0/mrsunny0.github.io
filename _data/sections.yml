@@ -74,7 +74,7 @@
       img: assets/img/projects/make.jpg
       alt: how to make anything
       content:
-        image: # place an image on making
+        image: assets/img/projects/make.jpg # place an image on making
         alt-link: https://mrsunny0.github.io/website-htmaa-portfolio/
       caption: 
         short: 
@@ -85,13 +85,12 @@
       img: assets/img/projects/generate.jpg
       alt: how to generate anything   
       content:
-        image: # place on image on how to generate
+        image: assets/img/projects/generate.jpg # place on image on how to generate
         alt-link: https://howtogeneratealmostanything.com/
       caption: 
         short: 
         popup: >
           Inspired by physical creations, I collaborated with Pinar Yanardag from the Media Lab to digitally create new ideas. Inspired from How to Make, we worked on a theme titled &mdash; <i>How to Generate (Almost) Anything</i>
-
       # 
     - subheading: Hackathons
       img: assets/img/projects/hackathon.jpg
