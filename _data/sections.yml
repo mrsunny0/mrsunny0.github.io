@@ -3,7 +3,7 @@
 
 - id: id1
   heading: Academic
-  description: I received a B.S. from UC Berkeley in Bioengineering and Electrical Engineering and Computer Science in 2014. I later earned my PhD in Biological Engineering from MIT in 2019, with work also done at the Media Lab in 2017.
+  description: I received a B.S. from UC Berkeley in 2014 and a PhD in Biological Engineering from MIT in 2019. I also have design experience from the Media Lab.
   group: 
     - subheading: UC Berkeley, B.S.<br>2010-2014
       alt: UC Berkeley 
@@ -12,9 +12,8 @@
         image: assets/img/academic/graduation.jpg
         alt-link: https://engineering.berkeley.edu/
       caption: 
-        short: 
-          # Bachelor's degree in Bioengineering and Electrical Engineering & Computer Science, graduated 2014
-          # I received my Bachelor's of Engineering from UC Berkeley on 2014, receiving a degree in Bioengineering as well as Electrical Engineering and Computer Science.
+        short: >
+          I received my Bachelor's of Engineering in Bioengineering, and Electrical Engineering and Computer Science in 2014.
         popup: >
           I had the honor of attending UC Berkeley, an amazing instution where I gained a passion for academic rigor and scientific discoveries. I received a B.S. in Bioengineering along with a degree in Electrical Engineering and Computer Science in 2014. I studied under Professor David V. Schaffer (<a href="http://www.cchem.berkeley.edu/schaffer/">Scahffer Lab</a>) and Mikhail Shapiro (<a href="http://shapirolab.caltech.edu/">Shapiro Lab</a>). While there I received the <a href="https://financialaid.berkeley.edu/regents-and-chancellors-scholarship">Regents & Chancellor's Scholarship</a>, Leadership Award, the <a href="https://www.nigms.nih.gov/training/IMSD">IMSD NIH Research Fellowship</a> and proudly led the Residential Tutoring Services. I had an incredible experience, and an opportunity of a lifetime.
       # 
@@ -26,9 +25,8 @@
             image: assets/img/academic/lab-selfie.jpg
             alt-link: https://be.mit.edu/
           caption: 
-            short: 
-              # Received a PhD in Biological Engineering, graduated 2019
-              # I pursued a PhD in Biological Engineering at MIT starting in 2014, and received my PhD in 2019 from Advisor Angela M. Belcher in the Biological Engineering and Material Science Department. 
+            short:
+              I earned a PhD in Biological Engineering with Advisor Angela Belcher in 2019, focused on waste water and heavy metal remediation.
             popup: >
               My advisors at Berkeley greatly influenced my passion for the biological and engineering sciences. I began my PhD career in 2014 with advisor Angela Belcher (<a href="http://belcherlab.mit.edu/">Belcher Lab</a>). My research was at the intersection of synthetic biology and biomaterials, focusing on sustainable solutions for removing and remediating heavy metals. Several of my publications can be found at Nature Publication, and several personal projects will be published on bioRxiv. While at MIT I was awarded the Presidential Fellowship, the NSF Graduate Research Fellowship, the Bose Fellowship, and several other research-based grants.
           # 
@@ -38,6 +36,7 @@
             url: https://mrsunny0.github.io/website-phd-thesis/
           caption: 
             short: 
+              My thesis was focused on the material science of metals, and the biological and chemical reactions of yeast...
               # Learn more about my thesis on synthetic biology and metals 
               # My thesis was on engineering <i>S. Cerevisiae</i> (Baker's yeast) to consume and recycle heavy metals. My research leveraged technologies in material science, synthetic and molecular biology, and protein engineering.
             popup: >
@@ -52,6 +51,7 @@
             alt-link: https://design.mit.edu/projects/making-sports-dynamic
           caption: 
             short: 
+              I joined a design group at the Media Lab to work with Puma's innovation team.
               # I also studied at the Media Lab, taking a position as a research scientists in the Design Lab working with Puma and their innovation team.
             popup: >
               While at MIT, I took a year to work on cross-displinary project with the Media Lb and Puma's Innovation Team. I worked under <a href="https://www.linkedin.com/in/federicocasalegno/">Federico Casalegno</a>, <a href="https://www.linkedin.com/in/yihyun-lim/">Yihyun Lim</a>, and Puma's Global Innovation Director <a href="https://www.linkedin.com/in/thecharliehaus/?locale=de_DE">Charles Johnson</a>. I ran their embedded design and electronics group, in hopes of creating a new wave of intelligent footwear. I got to see the design thinking, and creative energy that comes from both an academic institution and a world leading consumer brand, and this insight has shaped how I view problems from both an engineering and aesthetic perspective.
@@ -62,7 +62,7 @@
             url: https://mrsunny0.github.io/website-media-lab/
           caption: 
             short: 
-              # My role was to lead their embedded and electronic engineering team in creating an intelligent insole. The goal was to create a responsive shoe that can respond and measure performance for future athletes.
+              I led the embedded and electronic engineering team. The goal was to create a responsive shoe that can respond and measure performance.
             popup: >
               There were three overaching projects, a material track, an electronics track, and a machine learning and intelligence track. The goal was to create a future fit shoe with the capacity to learn and respond to the user in a learned manner. This project, and subsequent showcase can be found by clicking the link above.
 
