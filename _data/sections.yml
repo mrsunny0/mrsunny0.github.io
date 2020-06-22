@@ -191,7 +191,7 @@
   # 
 - id: id4
   heading: Skills
-  description: I've been exposed to, and collected, a variety of skills throughout my career. Here is just a list of some of the workflows I use everyday.
+  description: Never a master, but always trying to refine my skills. Here is just a list of some of the workflows I use everyday.
   group: 
     - subheading: Design
       img: assets/img/skills/design.jpg
@@ -200,10 +200,10 @@
         list:
           header: Design experience
           items: 
-            - Drafting vectorized graphics and digital sketches
+            - Vectorized graphics and digital sketches
             - Storyboarding and UI flowcharts
-            - Color theory, color palletes, etc. 
-            - One of the most overlooked but integral, conducting user interviews
+            - Color theory, palletes, spatial design etc. 
+            - One of the most overlooked but integral skills, conducting user interviews
       # 
     - subheading: Hardware
       img: assets/img/skills/hardware.jpg
@@ -213,10 +213,10 @@
           header: Prototyping experience
           items: 
             - 2D CNC milling workflows 
-            - 3D printing, and knowledge of filament material properties
-            - PCB schematic and layout 
+            - 3D printing and material spec'ing
+            - PCB schematic and layout design
             - Variety of PCB soldering workflows
-            - My favorite &ndash; fabric tools such as vinyl cutting, sewing, and serging
+            - My favorite &ndash; fabric tools such as vinyl cutting, sewing, serging, etc.
       # 
     - subheading: DevOps
       alt: devops skills      
@@ -225,10 +225,10 @@
         list:
           header: DevOps experience
           items: 
-            - Quick server hosting for web dev and backend
-            - Severless hosting via AWS lambdas
-            - Local and remote databases, primarily noSQL structures such as Mongo and Firebasae
-            - Versioning and structured file and naming conventions/heirarchies
+            - Webhosting and backend creation
+            - AWS and Firebase workflows
+            - Local and remote databases, primarily noSQL structures
+            - Organizational skills, versioning and naming conventions
       
 - id: id5
   heading: Affiliations
