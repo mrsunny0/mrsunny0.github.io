@@ -75,23 +75,36 @@
       img: assets/img/projects/make.jpg
       alt: how to make anything
       content:
-        image: assets/img/projects/make.jpg # place an image on making
+        image: assets/img/projects/make.jpg 
         alt-link: https://mrsunny0.github.io/website-htmaa-portfolio/
       caption: 
-        short: 
+        short: >
+          I felt that learning concepts and definitions on paper was incomplete if I was not able to physically represent my learnings in the real-world. Therefore, I make.
         popup: >
-          I took <i>How to Make (Almost) Anything</i>, a course taught by Neil Gershenfeld. It was one of the few courses that changed my perspective to making, and that is, anything can be made with the right ingenuity.
+          I took 
+          <a href="http://fab.cba.mit.edu/classes/863.18/">
+            <i>How to Make (Almost) Anything</i>
+          </a>, 
+          a course taught by Neil Gershenfeld. It was one of the few courses that changed my perspective on making, and that is, anything can be made with the right skills and attempts. You can see my portfolio of projects in the link below. You can also see my colleagues inventions and makes
+          <a href="http://fab.cba.mit.edu/classes/863.17/people.html">
+          here
+          </a>. 
       # 
     - subheading: AI/ML Projects
       img: assets/img/projects/generate.jpg
       alt: how to generate anything   
       content:
-        image: assets/img/projects/generate.jpg # place on image on how to generate
+        image: assets/img/projects/generate.jpg 
         alt-link: https://howtogeneratealmostanything.com/
       caption: 
-        short: 
+        short: >
+          A colleague and I decided to make things in the digital world using machine learning, taught by skills we learned in the real-world.
         popup: >
-          Inspired by physical creations, I collaborated with Pinar Yanardag from the Media Lab to digitally create new ideas. Inspired from How to Make, we worked on a theme titled &mdash; <i>How to Generate (Almost) Anything</i>
+          Inspired by physical creations, I collaborated with 
+          <a href="https://www.linkedin.com/in/pinguar/">
+          Pinar Yanardag
+          </a> 
+          from the Media Lab to digitally create new ideas. Inspired by our class in How to Make, we worked on a similar theme we called &mdash; <i>How to Generate (Almost) Anything</i>
       # 
     - subheading: Hackathons
       img: assets/img/projects/hackathon.jpg
@@ -99,10 +112,14 @@
       content:
         url: https://mrsunny0.github.io/website-projects/
       caption: 
-        short: 
+        short: >
+          Hackathons were a way for me to test my skills and invent in short yet meaningful working sessions with new faces and collaboraters at the event.
         popup: >
-          Early in my academic career, I participated in several hackathons to learn new skills, but also test my abilities to brainstorm, prototype, and invent under stressful and constrained circumstances. 
-
+          Early in my academic career, I participated in several hackathons to learn new skills, but also test my abilities in brainstorming, prototyping, and inventing under stressful and constrained circumstances. The hackathons I attended ranged from healthcare hackathons such as 
+          <a href="https://hackingmedicine.mit.edu/">Hacking Medicine</a>, 
+          to artistic events such as 
+          <a href="http://mithackingarts.com/">Hacking Arts</a>, 
+          and finally my favorite &mdash; hardware-based hackathons, some of which were sponsored by Intel and other companies which released upcoming tools and hardware before being released to the public.
 
 - id: id3
   heading: Outreach
