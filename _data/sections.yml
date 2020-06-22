@@ -232,7 +232,7 @@
       
 - id: id5
   heading: Affiliations
-  description: I have the honor of being part of create organizations and institutions, these are the groups I am currently active in.
+  description: My academic and professional success have been supported by several organizations. These are the groups I am currently active in.
   group: 
     - subheading: NSF
       img: assets/img/affiliations/nsf.jpg
@@ -241,9 +241,15 @@
         image: assets/img/affiliations/nsf-cover.jpg
         alt-link: https://www.nsf.gov/
       caption:
-        short: 
-        popoup: >
-          My graduate studies was funded in part from the National Science Foundation, Graduate Research Fellowship. 
+        short: >
+          I was awarded the NSF graduate fellowship for my PhD research, as well as the NSF I-Corp grant for user research.
+        popup: >
+          My graduate studies was funded in part from the 
+          National Science Foundation, Graduate 
+          <a href="https://www.nsfgrfp.org/">Research Fellowship</a>.
+          and my subsequent endeavor into the startup realm was also supported by the NSF in their I-Corp program. More so, their 
+          <a href="https://seedfund.nsf.gov/">SBIR I/II</a> 
+          grants are integral for many early startups.
       #  
     - subheading: New Lab
       subgroup:
@@ -253,17 +259,21 @@
             youtube: https://www.youtube.com/embed/eLw_xkfDygI
             alt-link: https://newlab.com/
           caption: 
-            short: 
-            popoup:
-          #  
-        - img: assets/img/affiliations/newlab.jpg
-          alt: New Lab
-          content:
-            video: assets/video/stitching.mp4
-            alt-link: https://newlab.com/
-          caption: 
-            short: 
-            popoup:             
+            short: >
+              Post-academic career, I became a member of the New Lab Community, an upcoming innovation and maker space for entrepreneurs and inventors in the Brookyln and New York area.
+            popup: >
+              New Lab was 
+              <a href="https://en.wikipedia.org/wiki/New_Lab">inspired</a>
+              on the design and creative thinking that came from the Media Lab, so a home away from home in my case. The space boasts upwards of 150 member companies ranging from automated vehicles, agriculture, sports, to even rocket science. As a member, we are proud to be the leading face of innovation in the Brookyln and New York area, and always happy to get more involved in the entrepreneurial ecosystem.
+        #   #  
+        # - img: assets/img/affiliations/newlab.jpg
+        #   alt: New Lab
+        #   content:
+        #     video: assets/video/stitching.mp4
+        #     alt-link: https://newlab.com/
+        #   caption: 
+        #     short: 
+        #     popoup:             
       # 
     - subheading: Hardware Club
       img: assets/img/affiliations/hardware-club.jpg
@@ -272,9 +282,12 @@
         image: assets/img/affiliations/hardware-virtual.jpg
         alt-link: https://www.hardwareclub.co/
       caption: 
-        short: 
-        popoup:         
-
+        short: >
+          A multi-national group centered on inventors and makers in the hardware space. I have been a member since early 2020
+        popup: >
+          I am always suprised by the diversity of thinkers and inventions that comprise the community. The group was created in 2015 and <a href="https://en.wikipedia.org/wiki/Hardware_Club">founded</a> 
+          by Alexis Houssou. As of this writing, there are over 360 startups from 30 countries in the community, and I am happy to I can add to that number.
+  # 
 - id: id6
   heading: Documents
   group: 
