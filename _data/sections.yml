@@ -252,28 +252,18 @@
           grants are integral for many early startups.
       #  
     - subheading: New Lab
-      subgroup:
-        - img: assets/img/affiliations/newlab.jpg
-          alt: New Lab
-          content:
-            youtube: https://www.youtube.com/embed/eLw_xkfDygI
-            alt-link: https://newlab.com/
-          caption: 
-            short: >
-              Post-academic career, I became a member of the New Lab Community, an upcoming innovation and maker space for entrepreneurs and inventors in the Brookyln and New York area.
-            popup: >
-              New Lab was 
-              <a href="https://en.wikipedia.org/wiki/New_Lab">inspired</a>
-              on the design and creative thinking that came from the Media Lab, so a home away from home in my case. The space boasts upwards of 150 member companies ranging from automated vehicles, agriculture, sports, to even rocket science. As a member, we are proud to be the leading face of innovation in the Brookyln and New York area, and always happy to get more involved in the entrepreneurial ecosystem.
-        #   #  
-        # - img: assets/img/affiliations/newlab.jpg
-        #   alt: New Lab
-        #   content:
-        #     video: assets/video/stitching.mp4
-        #     alt-link: https://newlab.com/
-        #   caption: 
-        #     short: 
-        #     popoup:             
+      img: assets/img/affiliations/newlab.jpg
+      alt: New Lab
+      content:
+        youtube: https://www.youtube.com/embed/eLw_xkfDygI
+        alt-link: https://newlab.com/
+      caption: 
+        short: >
+          Post-academic career, I became a member of the New Lab Community, an upcoming innovation and maker space for entrepreneurs and inventors in the Brookyln and New York area.
+        popup: >
+          New Lab was 
+          <a href="https://en.wikipedia.org/wiki/New_Lab">inspired</a>
+          on the design and creative thinking that came from the Media Lab, so a home away from home in my case. The space boasts upwards of 150 member companies ranging from automated vehicles, agriculture, sports, to even rocket science. As a member, we are proud to be the leading face of innovation in the Brookyln and New York area, and always happy to get more involved in the entrepreneurial ecosystem.            
       # 
     - subheading: Hardware Club
       img: assets/img/affiliations/hardware-club.jpg
@@ -299,4 +289,6 @@
       caption:
         short:
         popup: >
-          Working on my resume has given me the time to reflect on my past experiences and achievements. It is rare of me to say this, but I am proud of the steps I have taken to reach where I am today, but still very much motivated to continue to learn and do more.
+          If anything interests you on this page or within my resume, please feel free to reach out to me via 
+          <a href="https://www.linkedin.com/in/george-lele-sun/">Linkedin</a>. 
+          Happy to talk candidly about myself, my academic and professional journey in more detail, or ways I can help you and your network.
