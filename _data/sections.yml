@@ -123,7 +123,7 @@
 
 - id: id3
   heading: Outreach
-  description: I am a firm believer of paying it forward, and for me, that means to teach and inspire the next generation of movers and shakers.
+  description: I am a firm believer of paying it forward, and for me, that means to teach and inspire the next generation of makers.
   group: 
     - subheading: Communication Lab
       subgroup:
@@ -133,28 +133,29 @@
           image: assets/img/outreach/poster-award.jpg
           alt-link: https://mitcommlab.mit.edu/
         caption: 
-          short: 
+          short: >
+            I worked as a Communication Fellow during my graduate studies, which meant mentoring students on the writte and verbal skills to communicate intricate scientific work.
           popup: >
             I trained as a Fellow at the Biological Engineering Communication Lab, where we mentored those interested in crafting compelling written, visual, and oral scientific narratives. 
             I worked closely with 
             <a href="https://mitcommlab.mit.edu/be/fellows_staff/diana-chien-2/">Diana Chen</a> and 
-            <a href="https://mitcommlab.mit.edu/be/fellows_staff/prerna-bhargava/">Prerna Bhargava</a> to schedule Comm Lab appointments, go through trainings, and host seminars and work sessions for students. Linked below are some of the publicity I received during my time as a Comm Fellow:
-              <br>
-              &#8250; <a href="https://www.facebook.com/MITBiologicalEngineering/photos/whos-up-to-bats-this-friday-george-sun-belcher-lab-using-yeast-to-clean-contamin/1886986934679120/">Seminar speaker</a>
-              <br>
-              &#8250; <a href="https://www.facebook.com/MITBiologicalEngineering/photos/george-sun-of-angela-belcher-lab-addresses-the-be-retreat-attendees/1715884501789365/">Department speaker</a>
-              <br>
-              &#8250; <a href="http://news.mit.edu/2018/center-environmental-health-sciences-selects-poster-winners-0420">Poster winner</a>    
-        # 
+            <a href="https://mitcommlab.mit.edu/be/fellows_staff/prerna-bhargava/">Prerna Bhargava</a> for setting up Comm Lab appointments, go through training materials, and host seminars and work sessions for students. Linked below are some events which I spoke at during my time as a Comm Fellow:
+            <br>
+            <a href="https://www.facebook.com/MITBiologicalEngineering/photos/whos-up-to-bats-this-friday-george-sun-belcher-lab-using-yeast-to-clean-contamin/1886986934679120/">Seminar speaker</a>
+            <a href="https://www.facebook.com/MITBiologicalEngineering/photos/george-sun-of-angela-belcher-lab-addresses-the-be-retreat-attendees/1715884501789365/">Department speaker</a>
+            <a href="http://news.mit.edu/2018/center-environmental-health-sciences-selects-poster-winners-0420">Poster winner</a>    
+            
+        #
       - img: assets/img/outreach/book.jpg
         alt: BE Communication Lab commkit page
         content:
           image: assets/img/outreach/exp-presentation.jpg
           alt-link: https://gelp.mit.edu/grad-creative-teams
         caption: 
-          short: 
+          short: >
+            I held a position as a teaching assistant for the Gordan Engineering Leadership Program, specifically on effective communication. 
           popup: >
-            I worked as a Teaching Assistant for Professor David Ni&ntilde;o in his course <a href="https://gelp.mit.edu/grad-creative-teams">Leading Creative Teams</a>, where I held a seminar on effective verbal and nonverbal messaging, and judged students on their leadership narrative.
+            I worked as a Teaching Assistant for Professor David Ni&ntilde;o in his course <a href="https://gelp.mit.edu/grad-creative-teams">Leading Creative Teams</a>, where I held a seminar on effective verbal and nonverbal messaging. My responsibilities were providing feedback and constructive reviews on student's leadership narratives. I also research ways to quantify effective communication, by integrating speech recognition and machine learning to extract verbal cues such as pauses, intonation, and filler words like 'um' and 'like'.
           # 
       - img: assets/img/outreach/awesome.jpg
         alt: BE Communication Lab github page
@@ -162,17 +163,20 @@
           pdf: assets/img/outreach/awesome-ghpage.pdf
           alt-link: https://github.com/MIT-BECL/
         caption: 
-          short:
+          short: >
+            During my time as a Comm Fellow and Teaching Assistant, I compiled my learnings into online articles and repositories so others can learn from.
           popup: >
-            What teaching has taught me is that knowledge should be shared freely, and that collections of knowledge benefit greatly from input from a variety of sources. Therefore, materials (much like this website) are publically available via open repositories like Github. This movement is not new, so while at the Communication Lab we adopted formats such as the 
-            <a href="https://awesomelists.top/">Awesome Lists</a>, and open source 
-            <a href="https://github.com/MIT-BECL">tutorials</a> 
+            What teaching has taught me is that knowledge should be shared freely, and that collections of knowledge are enhanced tremendously with contributions from a variety of sources. Therefore, materials (much like this website) are publically available via open repositories like Github. This movement is not new, so while at the Communication Lab we adopted formats such as the 
+            <a href="https://awesomelists.top/">Awesome Lists</a>, 
+            open source 
+            <a href="https://mitcommlab.mit.edu/be/use-the-commkit/">tutorials</a> 
             and 
-            <a href="https://bedatalab.github.io/">labs</a>. You can follow much of my work on my 
+            <a href="https://bedatalab.github.io/">labs</a>. 
+            You can follow much of my personal work on my 
             <a href="https://github.com/mrsunny0/">github page</a> 
-            where I plan on creating templates, generators, and wiki articles on how to build minimum viable working solutions for a variety of software and hardware problems.
+            where I create templates, generators, and wiki articles on how to build minimum viable working solutions for a variety of software and hardware problems.
       # 
-    - subheading: Entrepreneur in residence
+    - subheading: Entrepreneur in residence (EIN)
       img: assets/img/outreach/ein.jpg
       alt: entrepreneur in residence   
       content:
@@ -180,10 +184,11 @@
         image: assets/img/outreach/ein-photo.jpg
         alt-link: https://www.une.edu/provost/resources/makerspace-and-student-innovation-challenge
       caption: 
-        short: 
+        short: >
+          Outside of my academic circle, I began mentoring students as an EIN at the University of New England for their own entrepreneurial initiatives.
         popup: >
-          I worked closely with Anthony Santella from 2017-2019 on opening their P.D. Merrill Makerspace at the Unversity of Maine. The culmination of our work were the annual Student Innovation Challenge. While as a judge, it was one of the few experiences where I saw what it was like to be behind the judging table. It was extremely difficult to qualify a variety of variables, such as the difficulty of the project, how the student conveyed a compelling narrative, and how impactful their solution may be.
-
+          I worked closely with Anthony Santella from 2017-2019 on opening their P.D. Merrill Makerspace at the Unversity of Maine. The culmination of our work were the annual Student Innovation Challenge. While as a judge, it was one of the few experiences where I saw what it was like to be on the other side of the judging table. It is humbling to say that it was extremely difficult to qualify a variety of variables, such as the difficulty of the project, how the student conveyed a compelling narrative, and how impactful their solution was.
+  # 
 - id: id4
   heading: Skills
   description: I've been exposed to, and collected, a variety of skills throughout my career. Here is just a list of some of the workflows I use everyday.
